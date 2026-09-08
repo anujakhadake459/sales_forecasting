@@ -21,12 +21,12 @@ st.set_page_config(
 # FILE PATHS
 # ============================================================
 
-MODEL_PATH = "deployment_files/final_xgboost_model.pkl"
-FEATURE_PATH = "deployment_files/final_feature_columns.pkl"
+MODEL_PATH = "final_xgboost_model.pkl"
+FEATURE_PATH = "final_feature_columns.pkl"
 
 # IMPORTANT:
 # We use CSV instead of forecast_history.pkl
-HISTORY_PATH = "deployment_files/forecast_history.csv"
+HISTORY_PATH = "forecast_history.csv"
 
 
 # ============================================================
