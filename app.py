@@ -3,6 +3,11 @@ import pandas as pd
 import numpy as np
 import joblib
 import os
+from datetime import date
+try:
+    from zoneinfo import ZoneInfo
+except ImportError:
+    ZoneInfo = None
 
 
 # ============================================================
@@ -365,7 +370,8 @@ def predict_sales(
     product_id,
     store_id,
     prediction_date,
-    working_history
+    working_history,
+    user_inputs=None
 ):
 
     prediction_date = pd.Timestamp(
@@ -458,15 +464,26 @@ def predict_sales(
 
 
     # --------------------------------------------------------
-    # Latest row
-    #
-    # Future values such as price, promotion, weather etc.
-    # are not known.
-    #
-    # Therefore use the latest known business values.
+    # Latest row / user-selected business inputs
     # --------------------------------------------------------
 
     latest_row = history.iloc[-1]
+
+    # When the deployment user supplies business inputs, use
+    # those values for the forecast. Otherwise keep the latest
+    # known historical values for backward compatibility.
+    inputs = user_inputs or {}
+
+    price_value = inputs.get("Price", latest_row["Price"])
+    discount_value = inputs.get("Discount_Percentage", latest_row["Discount_Percentage"])
+    promotion_value = inputs.get("Promotion_Flag", latest_row["Promotion_Flag"])
+    stock_value = inputs.get("Stock_Availability", latest_row["Stock_Availability"])
+    weather_value = inputs.get("Weather", latest_row["Weather"])
+    local_event_value = inputs.get("Local_Event_Flag", latest_row["Local_Event_Flag"])
+    competitor_value = inputs.get("Competitor_Price", latest_row["Competitor_Price"])
+    economic_value = inputs.get("Economic_Indicator", latest_row["Economic_Indicator"])
+    channel_value = inputs.get("Sales_Channel", latest_row["Sales_Channel"])
+    segment_value = inputs.get("Customer_Segment", latest_row["Customer_Segment"])
 
 
     # --------------------------------------------------------
@@ -495,8 +512,9 @@ def predict_sales(
     # Holiday
     # --------------------------------------------------------
 
-    holiday_flag = get_future_holiday_flag(
-        prediction_date
+    holiday_flag = inputs.get(
+        "Holiday_Flag",
+        get_future_holiday_flag(prediction_date)
     )
 
 
@@ -527,19 +545,19 @@ def predict_sales(
         ],
 
         "Price": [
-            latest_row["Price"]
+            price_value
         ],
 
         "Discount_Percentage": [
-            latest_row["Discount_Percentage"]
+            discount_value
         ],
 
         "Promotion_Flag": [
-            latest_row["Promotion_Flag"]
+            promotion_value
         ],
 
         "Stock_Availability": [
-            latest_row["Stock_Availability"]
+            stock_value
         ],
 
         "Day_of_Week": [
@@ -567,27 +585,27 @@ def predict_sales(
         ],
 
         "Weather": [
-            latest_row["Weather"]
+            weather_value
         ],
 
         "Local_Event_Flag": [
-            latest_row["Local_Event_Flag"]
+            local_event_value
         ],
 
         "Competitor_Price": [
-            latest_row["Competitor_Price"]
+            competitor_value
         ],
 
         "Economic_Indicator": [
-            latest_row["Economic_Indicator"]
+            economic_value
         ],
 
         "Sales_Channel": [
-            latest_row["Sales_Channel"]
+            channel_value
         ],
 
         "Customer_Segment": [
-            latest_row["Customer_Segment"]
+            segment_value
         ],
 
         "Marketing_Spend": [
@@ -716,7 +734,9 @@ def generate_forecast(
     product_id,
     store_id,
     horizon,
-    base_history
+    base_history,
+    start_date=None,
+    user_inputs=None
 ):
 
     history = base_history.copy()
@@ -752,10 +772,15 @@ def generate_forecast(
     # Forecast starts from next day
     # --------------------------------------------------------
 
-    forecast_start = (
-        latest_date
-        + pd.Timedelta(days=1)
-    )
+    if start_date is None:
+        forecast_start = latest_date + pd.Timedelta(days=1)
+    else:
+        forecast_start = pd.Timestamp(start_date)
+        if forecast_start <= latest_date:
+            raise ValueError(
+                f"Forecast start date must be after the latest "
+                f"historical date ({latest_date.strftime('%Y-%m-%d')})."
+            )
 
 
     forecast_rows = []
@@ -781,7 +806,9 @@ def generate_forecast(
 
             forecast_date,
 
-            history
+            history,
+
+            user_inputs
 
         )
 
@@ -794,7 +821,8 @@ def generate_forecast(
 
             "Store_ID": store_id,
 
-            "Predicted_Units_Sold": prediction
+            "Predicted_Units_Sold": prediction,
+            "Forecast_Start_Date": forecast_start
 
         })
 
@@ -847,6 +875,13 @@ def generate_forecast(
             )
         )
 
+        # Keep the selected business inputs in the recursive
+        # history so they are used on the next forecast day too.
+        if user_inputs:
+            for key, value in user_inputs.items():
+                if key in latest_pair_row.index:
+                    latest_pair_row[key] = value
+
 
         history = pd.concat(
 
@@ -877,7 +912,9 @@ def generate_forecast(
 def generate_store_total_forecast(
     store_id,
     horizon,
-    base_history
+    base_history,
+    start_date=None,
+    user_inputs=None
 ):
 
     store_history = base_history[
@@ -928,7 +965,11 @@ def generate_store_total_forecast(
 
                 horizon,
 
-                base_history
+                base_history,
+
+                start_date,
+
+                user_inputs
 
             )
 
@@ -1068,121 +1109,219 @@ forecast_type = st.sidebar.radio(
 
 
 # ============================================================
-# STORE OPTIONS
-#
-# Display:
-# S01 - Chennai
-# S02 - Bengaluru
-# etc.
-#
-# Internally:
-# S01
-# S02
-# etc.
+# REGION / STORE INPUT
 # ============================================================
 
-store_options_df = (
-
-    dataset_df[
-        [
-            "Store_ID",
-            "Store_Location"
-        ]
-    ]
+region_options = (
+    dataset_df["Store_Location"]
+    .dropna()
+    .astype(str)
     .drop_duplicates()
-    .sort_values("Store_ID")
-
+    .sort_values()
+    .tolist()
 )
 
+selected_region = st.sidebar.selectbox(
+    "🌍 Region",
+    region_options
+)
+
+region_store_df = dataset_df[
+    dataset_df["Store_Location"].astype(str) == str(selected_region)
+][["Store_ID", "Store_Location"]].drop_duplicates().sort_values("Store_ID")
 
 store_display_options = [
-
     f"{row['Store_ID']} - {row['Store_Location']}"
-
-    for _, row
-    in store_options_df.iterrows()
-
+    for _, row in region_store_df.iterrows()
 ]
 
-
-selected_store_display = (
-
-    st.sidebar.selectbox(
-
-        "Select Store / Location",
-
-        store_display_options
-
-    )
-
+selected_store_display = st.sidebar.selectbox(
+    "🏬 Store / Location",
+    store_display_options
 )
 
-
-# ------------------------------------------------------------
-# Extract Store_ID
-# ------------------------------------------------------------
-
-selected_store = (
-
-    selected_store_display
-    .split(" - ", 1)[0]
-
-)
+selected_store = selected_store_display.split(" - ", 1)[0]
 
 
 # ============================================================
-# PRODUCT OPTIONS
+# PRODUCT INPUT
 # ============================================================
 
-if forecast_type == "Product + Store":
+product_options_df = (
+    dataset_df[["Product_ID", "Product_Name"]]
+    .drop_duplicates()
+    .sort_values("Product_ID")
+)
 
-    product_options_df = (
+product_display_options = [
+    f"{row['Product_ID']} - {row['Product_Name']}"
+    for _, row in product_options_df.iterrows()
+]
 
-        dataset_df[
-            [
-                "Product_ID",
-                "Product_Name"
-            ]
-        ]
-        .drop_duplicates()
-        .sort_values("Product_ID")
+selected_product_display = st.sidebar.selectbox(
+    "📦 Product",
+    product_display_options
+)
 
+selected_product = selected_product_display.split(" - ", 1)[0]
+
+
+# ============================================================
+# DEFAULT BUSINESS VALUES
+# ============================================================
+
+selected_pair = dataset_df[
+    (dataset_df["Product_ID"] == selected_product)
+    & (dataset_df["Store_ID"] == selected_store)
+].sort_values("Date")
+
+if len(selected_pair) == 0:
+    selected_pair = dataset_df[
+        dataset_df["Store_ID"] == selected_store
+    ].sort_values("Date")
+
+latest_input_row = selected_pair.iloc[-1]
+
+
+# ============================================================
+# BUSINESS FEATURE INPUTS
+# ============================================================
+
+st.sidebar.markdown("### ⚙️ Business Features")
+
+price_input = st.sidebar.number_input(
+    "💰 Price",
+    min_value=0.0,
+    value=float(latest_input_row["Price"]),
+    step=1.0
+)
+
+discount_input = st.sidebar.number_input(
+    "🏷️ Discount %",
+    min_value=0.0,
+    max_value=100.0,
+    value=float(latest_input_row["Discount_Percentage"]),
+    step=1.0
+)
+
+promotion_options = dataset_df["Promotion_Flag"].dropna().unique().tolist()
+promotion_display = [str(x) for x in promotion_options]
+promotion_default = str(latest_input_row["Promotion_Flag"])
+promotion_input_display = st.sidebar.selectbox(
+    "📣 Promotion",
+    promotion_display,
+    index=promotion_display.index(promotion_default) if promotion_default in promotion_display else 0
+)
+
+stock_input = st.sidebar.number_input(
+    "📦 Stock Availability",
+    min_value=0.0,
+    value=float(latest_input_row["Stock_Availability"]),
+    step=1.0
+)
+
+# Holiday is calculated from the forecast date by default.
+# This selector lets the user explicitly override it.
+holiday_input = st.sidebar.selectbox(
+    "🎉 Holiday",
+    ["Auto (based on date)", "Yes", "No"]
+)
+
+local_event_options = dataset_df["Local_Event_Flag"].dropna().unique().tolist()
+local_event_display = [str(x) for x in local_event_options]
+local_event_default = str(latest_input_row["Local_Event_Flag"])
+local_event_input_display = st.sidebar.selectbox(
+    "📍 Local Event",
+    local_event_display,
+    index=local_event_display.index(local_event_default) if local_event_default in local_event_display else 0
+)
+
+competitor_input = st.sidebar.number_input(
+    "💰 Competitor Price",
+    min_value=0.0,
+    value=float(latest_input_row["Competitor_Price"]),
+    step=1.0
+)
+
+economic_input = st.sidebar.number_input(
+    "📊 Economic Indicator",
+    value=float(latest_input_row["Economic_Indicator"]),
+    step=0.1
+)
+
+marketing_input = st.sidebar.number_input(
+    "📣 Marketing Spend",
+    min_value=0.0,
+    value=float(latest_input_row["Marketing_Spend"]),
+    step=100.0
+)
+
+# These categorical features were also used by the trained model.
+# Keep them available so the deployment can pass a complete
+# feature set to XGBoost instead of silently ignoring them.
+with st.sidebar.expander("Additional model features"):
+    weather_options = dataset_df["Weather"].dropna().astype(str).unique().tolist()
+    weather_default = str(latest_input_row["Weather"])
+    weather_input = st.selectbox(
+        "Weather",
+        weather_options,
+        index=weather_options.index(weather_default) if weather_default in weather_options else 0
+    )
+
+    channel_options = dataset_df["Sales_Channel"].dropna().astype(str).unique().tolist()
+    channel_default = str(latest_input_row["Sales_Channel"])
+    channel_input = st.selectbox(
+        "Sales Channel",
+        channel_options,
+        index=channel_options.index(channel_default) if channel_default in channel_options else 0
+    )
+
+    segment_options = dataset_df["Customer_Segment"].dropna().astype(str).unique().tolist()
+    segment_default = str(latest_input_row["Customer_Segment"])
+    segment_input = st.selectbox(
+        "Customer Segment",
+        segment_options,
+        index=segment_options.index(segment_default) if segment_default in segment_options else 0
     )
 
 
-    product_display_options = [
-
-        f"{row['Product_ID']} - {row['Product_Name']}"
-
-        for _, row
-        in product_options_df.iterrows()
-
-    ]
-
-
-    selected_product_display = (
-
-        st.sidebar.selectbox(
-
-            "Select Product",
-
-            product_display_options
-
-        )
-
-    )
+def convert_to_dataset_type(column, display_value):
+    """Convert Yes/No-style UI values to the dataset's stored type."""
+    sample = dataset_df[column].dropna()
+    if len(sample) == 0:
+        return display_value
+    sample_value = sample.iloc[0]
+    if isinstance(sample_value, (int, np.integer, float, np.floating)):
+        if str(display_value).lower() == "yes":
+            return 1
+        if str(display_value).lower() == "no":
+            return 0
+    return display_value
 
 
-    # --------------------------------------------------------
-    # Extract Product_ID
-    # --------------------------------------------------------
+# Holiday override is applied only when the user chooses Yes/No.
+user_holiday_value = None
+if holiday_input == "Yes":
+    user_holiday_value = 1
+elif holiday_input == "No":
+    user_holiday_value = 0
 
-    selected_product = (
+user_inputs = {
+    "Price": price_input,
+    "Discount_Percentage": discount_input,
+    "Promotion_Flag": convert_to_dataset_type("Promotion_Flag", promotion_input_display),
+    "Stock_Availability": stock_input,
+    "Local_Event_Flag": convert_to_dataset_type("Local_Event_Flag", local_event_input_display),
+    "Competitor_Price": competitor_input,
+    "Economic_Indicator": economic_input,
+    "Marketing_Spend": marketing_input,
+    "Weather": weather_input,
+    "Sales_Channel": channel_input,
+    "Customer_Segment": segment_input
+}
 
-        selected_product_display
-        .split(" - ", 1)[0]
-
-    )
+if user_holiday_value is not None:
+    user_inputs["Holiday_Flag"] = user_holiday_value
 
 
 # ============================================================
@@ -1223,15 +1362,50 @@ selected_horizon = horizon_options[
 
 
 # ============================================================
+# FORECAST START DATE
+# ============================================================
+
+if ZoneInfo is not None:
+    current_date = date.today()
+    try:
+        from datetime import datetime
+        current_date = datetime.now(ZoneInfo("Asia/Kolkata")).date()
+    except Exception:
+        current_date = date.today()
+else:
+    current_date = date.today()
+latest_dataset_date = dataset_df["Date"].max().date()
+
+# By default, use the current date. If the current date is
+# before the end of the available historical data, start from
+# the first day after the historical data.
+minimum_forecast_date = max(
+    current_date,
+    latest_dataset_date + pd.Timedelta(days=1)
+)
+
+selected_start_date = st.sidebar.date_input(
+    "Forecast Start Date",
+    value=minimum_forecast_date,
+    min_value=latest_dataset_date + pd.Timedelta(days=1)
+)
+
+
+# ============================================================
 # INFORMATION MESSAGE
 # ============================================================
 
 st.sidebar.info(
 
     """
-    Forecasting starts automatically from the day
-    after the latest historical date for the
-    selected Product + Store or Store.
+    Forecasting starts **on the selected Forecast Start Date** (the first
+    forecast day) and continues for the selected forecast horizon.
+
+    The default Forecast Start Date is today's date in India (IST).
+
+    Region filters the available Store / Location. The business
+    feature inputs above are passed to the XGBoost model for every
+    forecast day.
     """
 
 )
@@ -1272,7 +1446,11 @@ if predict_button:
 
                 selected_horizon,
 
-                model_history_df
+                model_history_df,
+
+                selected_start_date,
+
+                user_inputs
 
             )
 
@@ -1817,7 +1995,9 @@ if predict_button:
 
                     selected_horizon,
 
-                    model_history_df
+                    model_history_df,
+
+                    selected_start_date
 
                 )
 
