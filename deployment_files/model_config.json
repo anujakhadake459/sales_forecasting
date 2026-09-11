@@ -1,0 +1,10 @@
+{
+    "model_type": "Improved XGBoost",
+    "n_estimators": 1000,
+    "learning_rate": 0.03,
+    "max_depth": 8,
+    "min_child_weight": 5,
+    "subsample": 0.9,
+    "colsample_bytree": 1.0,
+    "number_of_features": 81
+}

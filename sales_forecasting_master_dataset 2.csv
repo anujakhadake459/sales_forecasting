@@ -1,0 +1,731 @@
+Row_ID,Date,Product_ID,Product_Name,Category,Store_ID,Store_Location,Units_Sold,Price,Discount_Percentage,Revenue,Promotion_Flag,Stock_Availability,Day_of_Week,Month,Quarter,Holiday_Flag,Holiday_Name,Is_Weekend,Season,Weather,Local_Event_Flag,Competitor_Price,Economic_Indicator,Sales_Channel,Customer_Segment,Marketing_Spend
+1,01-01-2024,P002,Bluetooth Speaker,Electronics,S01,Chennai,58,3759.44,0,218047.52,0,1,Monday,January,Q1,1,New Year,0,Winter,Sunny,1,3448.86,101.33,Online,Retail,109.32
+2,02-01-2024,P001,Wireless Mouse,Electronics,S02,Bengaluru,0,3636.89,15,0,1,0,Tuesday,January,Q1,0,,0,Winter,Stormy,0,3599.95,99.17,Online,Retail,7132.32
+3,03-01-2024,P006,Running Shoes,Apparel,S03,Mumbai,91,946.3,20,68890.64,1,1,Wednesday,January,Q1,0,,0,Winter,Sunny,0,923.58,100.38,In-Store,Wholesale,3012.95
+4,04-01-2024,P001,Wireless Mouse,Electronics,S04,Delhi,57,2773.89,5,150206.14,1,1,Thursday,January,Q1,0,,0,Winter,Clear,0,2956.64,104.28,In-Store,Wholesale,2326.74
+5,05-01-2024,P002,Bluetooth Speaker,Electronics,S01,Chennai,59,3374.06,20,159255.63,1,1,Friday,January,Q1,0,,0,Winter,Sunny,0,3621.37,100.7,In-Store,Wholesale,8424.05
+6,06-01-2024,P003,Office Chair,Furniture,S03,Mumbai,89,1905.3,15,144135.94,1,1,Saturday,January,Q1,0,,1,Winter,Sunny,1,1956.73,103.01,Online,Retail,4891.47
+7,07-01-2024,P005,LED Desk Lamp,Home,S02,Bengaluru,83,3486.15,20,231480.36,1,1,Sunday,January,Q1,0,,1,Winter,Rainy,0,3698.84,101.02,Online,Retail,9174.79
+8,08-01-2024,P006,Running Shoes,Apparel,S02,Bengaluru,45,3346.11,5,143046.2,1,1,Monday,January,Q1,0,,0,Winter,Rainy,0,3104.94,106.17,Wholesale,Corporate,7596.63
+9,09-01-2024,P007,Yoga Mat,Sports,S04,Delhi,42,1937.58,0,81378.36,1,1,Tuesday,January,Q1,0,,0,Winter,Sunny,0,1803.05,97.4,Wholesale,Corporate,6165.89
+10,10-01-2024,P007,Yoga Mat,Sports,S04,Delhi,4,3060.26,5,11628.99,1,0,Wednesday,January,Q1,0,,0,Winter,Cloudy,1,3281.08,95.17,Wholesale,Retail,6976.25
+11,11-01-2024,P005,LED Desk Lamp,Home,S03,Mumbai,61,735.45,5,42619.33,1,1,Thursday,January,Q1,0,,0,Winter,Stormy,0,802.2,108.14,In-Store,Wholesale,7738.64
+12,12-01-2024,P002,Bluetooth Speaker,Electronics,S03,Mumbai,0,4240.01,10,0,1,0,Friday,January,Q1,0,,0,Winter,Rainy,0,4133.09,97.42,Wholesale,Retail,6189.97
+13,13-01-2024,P008,Coffee Maker,Appliances,S01,Chennai,55,736.97,0,40533.35,0,1,Saturday,January,Q1,0,,1,Winter,Sunny,0,792.69,109.2,Online,Wholesale,243
+14,14-01-2024,P002,Bluetooth Speaker,Electronics,S02,Bengaluru,0,816.28,5,0,1,0,Sunday,January,Q1,0,,1,Winter,Rainy,0,820.8,104.1,Online,Wholesale,7675.02
+15,15-01-2024,P004,Notebook Pack,Stationery,S03,Mumbai,65,2115.16,15,116862.59,1,1,Monday,January,Q1,0,,0,Winter,Stormy,1,2094.64,98.72,Online,Corporate,699.83
+16,16-01-2024,P004,Notebook Pack,Stationery,S02,Bengaluru,81,234.52,15,16146.7,1,1,Tuesday,January,Q1,0,,0,Winter,Rainy,0,253.54,107.89,Online,Wholesale,2761.04
+17,17-01-2024,P008,Coffee Maker,Appliances,S02,Bengaluru,0,2788.32,15,0,1,0,Wednesday,January,Q1,0,,0,Winter,Clear,0,2645,102.09,In-Store,Retail,1396.1
+18,18-01-2024,P007,Yoga Mat,Sports,S03,Mumbai,53,2233.18,5,112440.61,1,1,Thursday,January,Q1,0,,0,Winter,Sunny,0,2189.69,100.09,Online,Retail,2320.11
+19,19-01-2024,P008,Coffee Maker,Appliances,S02,Bengaluru,35,2225.03,0,77876.05,1,1,Friday,January,Q1,0,,0,Winter,Sunny,0,2362.1,107.84,Online,Retail,6695.38
+20,20-01-2024,P001,Wireless Mouse,Electronics,S01,Chennai,47,4646.56,20,174710.66,1,1,Saturday,January,Q1,0,,1,Winter,Rainy,0,4633.22,98.21,In-Store,Retail,2064.05
+21,21-01-2024,P001,Wireless Mouse,Electronics,S04,Delhi,102,1472.97,20,120194.35,1,1,Sunday,January,Q1,0,,1,Winter,Cloudy,0,1530.88,105.96,Wholesale,Wholesale,7324.88
+22,22-01-2024,P003,Office Chair,Furniture,S02,Bengaluru,32,1624.2,0,51974.4,0,1,Monday,January,Q1,0,,0,Winter,Sunny,0,1651.54,102.54,Wholesale,Retail,28.44
+23,23-01-2024,P002,Bluetooth Speaker,Electronics,S02,Bengaluru,57,528.9,0,30147.3,0,1,Tuesday,January,Q1,0,,0,Winter,Sunny,1,502.05,103.92,Wholesale,Retail,209.61
+24,24-01-2024,P006,Running Shoes,Apparel,S03,Mumbai,64,1180.44,15,64215.94,1,1,Wednesday,January,Q1,0,,0,Winter,Rainy,0,1155.84,105.08,In-Store,Corporate,3503.68
+25,25-01-2024,P002,Bluetooth Speaker,Electronics,S01,Chennai,64,2399.77,10,138226.75,1,1,Thursday,January,Q1,0,,0,Winter,Sunny,1,2262.1,98.98,In-Store,Retail,8853.07
+26,26-01-2024,P006,Running Shoes,Apparel,S03,Mumbai,1,957.18,20,765.74,1,0,Friday,January,Q1,1,Republic Day,0,Winter,Cloudy,1,1049.81,107.11,Wholesale,Retail,6844.7
+27,27-01-2024,P005,LED Desk Lamp,Home,S01,Chennai,16,4706.86,0,75309.76,0,1,Saturday,January,Q1,0,,1,Winter,Sunny,1,4382.51,99.23,Online,Wholesale,171.44
+28,28-01-2024,P005,LED Desk Lamp,Home,S04,Delhi,94,1405.38,20,105684.58,1,1,Sunday,January,Q1,0,,1,Winter,Sunny,0,1497.95,95.66,In-Store,Retail,6552.58
+29,29-01-2024,P005,LED Desk Lamp,Home,S02,Bengaluru,38,3757.91,10,128520.52,1,1,Monday,January,Q1,0,,0,Winter,Clear,0,3466.2,109.18,Wholesale,Retail,5683.11
+30,30-01-2024,P006,Running Shoes,Apparel,S02,Bengaluru,25,2262.98,0,56574.5,0,1,Tuesday,January,Q1,0,,0,Winter,Sunny,0,2131.76,98.74,Online,Corporate,390.06
+31,31-01-2024,P007,Yoga Mat,Sports,S02,Bengaluru,0,4643.67,0,0,0,1,Wednesday,January,Q1,0,,0,Winter,Stormy,0,4345.88,108.87,In-Store,Wholesale,432.03
+32,01-02-2024,P004,Notebook Pack,Stationery,S03,Mumbai,93,964.15,15,76216.06,1,1,Thursday,February,Q1,0,,0,Winter,Stormy,0,1033.3,98.34,In-Store,Corporate,3399.31
+33,02-02-2024,P004,Notebook Pack,Stationery,S02,Bengaluru,62,313.59,0,19442.58,1,1,Friday,February,Q1,0,,0,Winter,Cloudy,0,342.87,99.19,Wholesale,Wholesale,4296.94
+34,03-02-2024,P006,Running Shoes,Apparel,S01,Chennai,0,753.64,0,0,0,0,Saturday,February,Q1,0,,1,Winter,Cloudy,0,694.62,101.52,Wholesale,Corporate,218.2
+35,04-02-2024,P002,Bluetooth Speaker,Electronics,S04,Delhi,21,4517.62,0,94870.02,0,1,Sunday,February,Q1,0,,1,Winter,Stormy,0,4535.62,107.1,Wholesale,Wholesale,470.13
+36,05-02-2024,P004,Notebook Pack,Stationery,S03,Mumbai,55,2270.23,15,106133.25,1,1,Monday,February,Q1,0,,0,Winter,Clear,0,2344.42,96.87,In-Store,Wholesale,3438.2
+37,06-02-2024,P007,Yoga Mat,Sports,S03,Mumbai,30,2131.52,0,63945.6,0,1,Tuesday,February,Q1,0,,0,Winter,Stormy,0,2207.11,108.54,Wholesale,Wholesale,150.47
+38,07-02-2024,P001,Wireless Mouse,Electronics,S03,Mumbai,0,1577.19,5,0,1,0,Wednesday,February,Q1,0,,0,Winter,Clear,0,1566.15,101.63,Online,Wholesale,4995.27
+39,08-02-2024,P003,Office Chair,Furniture,S01,Chennai,0,1562.17,15,0,1,0,Thursday,February,Q1,0,,0,Winter,Cloudy,0,1661.66,106.27,Wholesale,Corporate,2634.09
+40,09-02-2024,P004,Notebook Pack,Stationery,S02,Bengaluru,2,317.24,0,634.48,1,0,Friday,February,Q1,0,,0,Winter,Sunny,0,311.81,104.45,Online,Wholesale,7115.37
+41,10-02-2024,P008,Coffee Maker,Appliances,S04,Delhi,90,1371.13,15,104891.45,1,1,Saturday,February,Q1,0,,1,Winter,Sunny,0,1294.03,107.06,Wholesale,Wholesale,4913.22
+42,11-02-2024,P004,Notebook Pack,Stationery,S01,Chennai,94,2391.02,20,179804.7,1,1,Sunday,February,Q1,0,,1,Winter,Clear,1,2436.67,109.25,In-Store,Wholesale,8242.56
+43,12-02-2024,P007,Yoga Mat,Sports,S04,Delhi,42,4506.6,15,160885.62,1,1,Monday,February,Q1,0,,0,Winter,Stormy,0,4733.53,107.6,In-Store,Wholesale,5103.67
+44,13-02-2024,P004,Notebook Pack,Stationery,S03,Mumbai,62,2311.39,15,121810.25,1,1,Tuesday,February,Q1,0,,0,Winter,Rainy,0,2235.51,108.4,Online,Retail,1932.89
+45,14-02-2024,P007,Yoga Mat,Sports,S02,Bengaluru,29,3590.81,0,104133.49,1,1,Wednesday,February,Q1,0,,0,Winter,Cloudy,1,3566.34,95.93,In-Store,Corporate,9095.97
+46,15-02-2024,P001,Wireless Mouse,Electronics,S04,Delhi,31,2489.5,0,77174.5,0,1,Thursday,February,Q1,0,,0,Winter,Stormy,1,2612.74,103.19,Wholesale,Retail,244.11
+47,16-02-2024,P005,LED Desk Lamp,Home,S04,Delhi,44,2531.08,5,105799.14,1,1,Friday,February,Q1,0,,0,Winter,Stormy,0,2703.45,108.79,Wholesale,Wholesale,756.18
+48,17-02-2024,P007,Yoga Mat,Sports,S01,Chennai,85,602.95,5,48688.21,1,1,Saturday,February,Q1,0,,1,Winter,Stormy,0,548.72,100.69,Online,Corporate,3605.04
+49,18-02-2024,P007,Yoga Mat,Sports,S03,Mumbai,70,3809.65,20,213340.4,1,1,Sunday,February,Q1,0,,1,Winter,Cloudy,0,3787.03,106.24,Online,Corporate,2630.11
+50,19-02-2024,P002,Bluetooth Speaker,Electronics,S01,Chennai,0,3820.32,0,0,0,1,Monday,February,Q1,0,,0,Winter,Clear,0,3620.55,102.1,Online,Wholesale,473.88
+51,20-02-2024,P008,Coffee Maker,Appliances,S03,Mumbai,14,3881.11,0,54335.54,0,1,Tuesday,February,Q1,0,,0,Winter,Cloudy,0,3942.19,108.93,Wholesale,Wholesale,454.01
+52,21-02-2024,P007,Yoga Mat,Sports,S04,Delhi,0,4719.06,0,0,0,0,Wednesday,February,Q1,0,,0,Winter,Rainy,0,4905.17,99.52,Wholesale,Wholesale,402.76
+53,22-02-2024,P001,Wireless Mouse,Electronics,S03,Mumbai,67,2757.18,15,157021.4,1,1,Thursday,February,Q1,0,,0,Winter,Sunny,1,2838.54,95.19,In-Store,Corporate,1502.62
+54,23-02-2024,P006,Running Shoes,Apparel,S04,Delhi,41,3595.08,5,140028.37,1,1,Friday,February,Q1,0,,0,Winter,Clear,0,3678.42,108.79,In-Store,Corporate,4637.96
+55,24-02-2024,P005,LED Desk Lamp,Home,S03,Mumbai,70,4288.22,20,240140.32,1,1,Saturday,February,Q1,0,,1,Winter,Cloudy,0,4068.55,101.97,Wholesale,Wholesale,4100.4
+56,25-02-2024,P001,Wireless Mouse,Electronics,S04,Delhi,40,4284.57,0,171382.8,1,1,Sunday,February,Q1,0,,1,Winter,Cloudy,0,4147.75,108.2,Wholesale,Corporate,5780.01
+57,26-02-2024,P004,Notebook Pack,Stationery,S01,Chennai,52,1358.51,5,67110.39,1,1,Monday,February,Q1,0,,0,Winter,Clear,0,1410.3,104.69,In-Store,Corporate,8032.86
+58,27-02-2024,P002,Bluetooth Speaker,Electronics,S03,Mumbai,84,1263.66,15,90225.32,1,1,Tuesday,February,Q1,0,,0,Winter,Cloudy,1,1230.56,103.3,In-Store,Corporate,9968
+59,28-02-2024,P006,Running Shoes,Apparel,S03,Mumbai,17,3573.7,0,60752.9,0,1,Wednesday,February,Q1,0,,0,Winter,Rainy,0,3731.86,99.73,Wholesale,Wholesale,475.44
+60,29-02-2024,P003,Office Chair,Furniture,S02,Bengaluru,80,1238.65,5,94137.4,1,1,Thursday,February,Q1,0,,0,Winter,Clear,1,1262.63,109.71,Online,Corporate,2661.09
+61,01-03-2024,P003,Office Chair,Furniture,S03,Mumbai,73,267.91,10,17601.69,1,1,Friday,March,Q1,0,,0,Spring,Cloudy,0,293.32,103.3,Wholesale,Retail,6559.76
+62,02-03-2024,P008,Coffee Maker,Appliances,S01,Chennai,45,4389.05,10,177756.52,1,1,Saturday,March,Q1,0,,1,Spring,Stormy,0,4336.79,97.77,Online,Corporate,9440.1
+63,03-03-2024,P008,Coffee Maker,Appliances,S01,Chennai,44,4146.16,5,173309.49,1,1,Sunday,March,Q1,0,,1,Spring,Sunny,1,4253.5,95.8,Online,Wholesale,9516.69
+64,04-03-2024,P002,Bluetooth Speaker,Electronics,S02,Bengaluru,90,768.57,20,55337.04,1,1,Monday,March,Q1,0,,0,Spring,Clear,1,813.26,98.39,Wholesale,Corporate,4779.89
+65,05-03-2024,P008,Coffee Maker,Appliances,S03,Mumbai,48,4328.8,5,197393.28,1,1,Tuesday,March,Q1,0,,0,Spring,Clear,1,3948.06,109.4,Online,Retail,6442.39
+66,06-03-2024,P005,LED Desk Lamp,Home,S01,Chennai,51,953.87,0,48647.37,0,1,Wednesday,March,Q1,0,,0,Spring,Sunny,0,944.43,103.91,In-Store,Retail,115.74
+67,07-03-2024,P005,LED Desk Lamp,Home,S04,Delhi,0,541.66,0,0,0,0,Thursday,March,Q1,0,,0,Spring,Rainy,0,499.93,98.37,Online,Corporate,413.32
+68,08-03-2024,P002,Bluetooth Speaker,Electronics,S01,Chennai,78,996.43,0,77721.54,0,1,Friday,March,Q1,1,Holi,0,Spring,Sunny,0,1034.03,105.5,In-Store,Wholesale,269.99
+69,09-03-2024,P008,Coffee Maker,Appliances,S01,Chennai,55,3070.58,5,160437.8,1,1,Saturday,March,Q1,0,,1,Spring,Clear,0,2779.41,98.43,Wholesale,Wholesale,6077.67
+70,10-03-2024,P001,Wireless Mouse,Electronics,S03,Mumbai,82,2965.99,20,194568.94,1,1,Sunday,March,Q1,0,,1,Spring,Stormy,1,3055.87,108.74,Online,Wholesale,4640.91
+71,11-03-2024,P008,Coffee Maker,Appliances,S01,Chennai,51,2456.05,5,118995.62,1,1,Monday,March,Q1,0,,0,Spring,Cloudy,0,2631.77,99.95,Wholesale,Corporate,3238.07
+72,12-03-2024,P007,Yoga Mat,Sports,S01,Chennai,38,2383.16,0,90560.08,0,1,Tuesday,March,Q1,0,,0,Spring,Sunny,0,2557.09,107.37,Online,Wholesale,434.68
+73,13-03-2024,P008,Coffee Maker,Appliances,S04,Delhi,75,460.18,10,31062.15,1,1,Wednesday,March,Q1,0,,0,Spring,Clear,0,471.72,106.4,Online,Corporate,5717.59
+74,14-03-2024,P005,LED Desk Lamp,Home,S04,Delhi,53,4428.06,5,222952.82,1,1,Thursday,March,Q1,0,,0,Spring,Sunny,1,4693.14,105.65,In-Store,Wholesale,629.91
+75,15-03-2024,P007,Yoga Mat,Sports,S01,Chennai,61,1278.56,20,62393.73,1,1,Friday,March,Q1,0,,0,Spring,Stormy,0,1316.33,97.31,Wholesale,Corporate,5334.28
+76,16-03-2024,P005,LED Desk Lamp,Home,S04,Delhi,59,4206.67,5,235783.85,1,1,Saturday,March,Q1,0,,1,Spring,Stormy,1,3907.7,97.86,Wholesale,Wholesale,7589.78
+77,17-03-2024,P003,Office Chair,Furniture,S01,Chennai,102,1525.99,20,124520.78,1,1,Sunday,March,Q1,0,,1,Spring,Cloudy,1,1454.93,95.04,Wholesale,Corporate,8456.02
+78,18-03-2024,P008,Coffee Maker,Appliances,S02,Bengaluru,59,2343.43,5,131349.25,1,1,Monday,March,Q1,0,,0,Spring,Cloudy,1,2466.63,100.66,In-Store,Retail,9817.36
+79,19-03-2024,P004,Notebook Pack,Stationery,S04,Delhi,83,1321.1,20,87721.04,1,1,Tuesday,March,Q1,0,,0,Spring,Sunny,0,1385.76,105.58,In-Store,Corporate,9889.93
+80,20-03-2024,P003,Office Chair,Furniture,S04,Delhi,0,4831.16,0,0,0,1,Wednesday,March,Q1,0,,0,Spring,Stormy,0,4856.23,101.85,Wholesale,Retail,204.99
+81,21-03-2024,P003,Office Chair,Furniture,S01,Chennai,0,2453.55,0,0,0,0,Thursday,March,Q1,0,,0,Spring,Stormy,0,2626.16,107.79,Wholesale,Corporate,477.07
+82,22-03-2024,P008,Coffee Maker,Appliances,S01,Chennai,21,3163.81,0,66440.01,0,1,Friday,March,Q1,0,,0,Spring,Sunny,0,3466.48,106.41,Wholesale,Retail,221.84
+83,23-03-2024,P005,LED Desk Lamp,Home,S01,Chennai,113,420.76,20,38036.7,1,1,Saturday,March,Q1,0,,1,Spring,Cloudy,0,410.23,97.18,Wholesale,Corporate,5876.32
+84,24-03-2024,P003,Office Chair,Furniture,S02,Bengaluru,75,1040.33,10,70222.28,1,1,Sunday,March,Q1,0,,1,Spring,Clear,0,1039.84,103.75,Online,Corporate,6560.09
+85,25-03-2024,P008,Coffee Maker,Appliances,S03,Mumbai,67,3400.84,20,182285.02,1,1,Monday,March,Q1,0,,0,Spring,Cloudy,1,3168.21,101.63,In-Store,Wholesale,3341.97
+86,26-03-2024,P007,Yoga Mat,Sports,S03,Mumbai,22,2392.81,0,52641.82,0,1,Tuesday,March,Q1,0,,0,Spring,Stormy,0,2267.05,103.58,Wholesale,Corporate,496.35
+87,27-03-2024,P005,LED Desk Lamp,Home,S01,Chennai,46,4894.13,15,191360.48,1,1,Wednesday,March,Q1,0,,0,Spring,Cloudy,0,4958.66,105.29,Wholesale,Retail,9150.86
+88,28-03-2024,P008,Coffee Maker,Appliances,S03,Mumbai,25,3923.56,0,98089,0,1,Thursday,March,Q1,0,,0,Spring,Rainy,1,3727.87,106.33,Wholesale,Wholesale,419.17
+89,29-03-2024,P002,Bluetooth Speaker,Electronics,S01,Chennai,51,1682.88,5,81535.54,1,1,Friday,March,Q1,0,,0,Spring,Clear,0,1761.09,96.35,In-Store,Corporate,7601.07
+90,30-03-2024,P003,Office Chair,Furniture,S02,Bengaluru,98,834.37,10,73591.43,1,1,Saturday,March,Q1,0,,1,Spring,Clear,1,903.37,107.46,In-Store,Corporate,9690.15
+91,31-03-2024,P005,LED Desk Lamp,Home,S03,Mumbai,43,4060.32,5,165864.07,1,1,Sunday,March,Q1,0,,1,Spring,Rainy,0,4352.78,105.86,In-Store,Wholesale,3974.86
+92,01-04-2024,P007,Yoga Mat,Sports,S01,Chennai,70,1469.4,0,102858,1,1,Monday,April,Q2,0,,0,Spring,Cloudy,1,1434.44,104.58,In-Store,Retail,6910.95
+93,02-04-2024,P008,Coffee Maker,Appliances,S01,Chennai,43,3173.82,10,122826.83,1,1,Tuesday,April,Q2,0,,0,Spring,Clear,0,3267.54,104.53,In-Store,Wholesale,3370.81
+94,03-04-2024,P007,Yoga Mat,Sports,S01,Chennai,39,870.93,0,33966.27,0,1,Wednesday,April,Q2,0,,0,Spring,Sunny,0,824.74,103.06,In-Store,Corporate,185.51
+95,04-04-2024,P007,Yoga Mat,Sports,S02,Bengaluru,52,4449.99,15,196689.56,1,1,Thursday,April,Q2,0,,0,Spring,Stormy,1,4368.21,109.27,Online,Wholesale,4020.03
+96,05-04-2024,P008,Coffee Maker,Appliances,S04,Delhi,36,4762.66,20,137164.61,1,1,Friday,April,Q2,0,,0,Spring,Sunny,0,4805.02,109.67,In-Store,Retail,4282.33
+97,06-04-2024,P004,Notebook Pack,Stationery,S01,Chennai,60,4755.25,20,228252,1,1,Saturday,April,Q2,0,,1,Spring,Sunny,0,4890.02,103.96,Online,Retail,7974.55
+98,07-04-2024,P004,Notebook Pack,Stationery,S02,Bengaluru,2,3977.49,0,7954.98,0,0,Sunday,April,Q2,0,,1,Spring,Rainy,1,3751.53,108.05,In-Store,Retail,394.32
+99,08-04-2024,P001,Wireless Mouse,Electronics,S03,Mumbai,0,4320.35,0,0,0,0,Monday,April,Q2,0,,0,Spring,Cloudy,0,3983.3,108,Online,Retail,179.12
+100,09-04-2024,P004,Notebook Pack,Stationery,S03,Mumbai,57,275.75,0,15717.75,0,1,Tuesday,April,Q2,0,,0,Spring,Stormy,1,254.44,95.95,In-Store,Corporate,256.62
+101,10-04-2024,P002,Bluetooth Speaker,Electronics,S04,Delhi,42,2618.43,10,98976.65,1,1,Wednesday,April,Q2,0,,0,Spring,Clear,0,2596.46,109.46,Online,Corporate,8549.34
+102,11-04-2024,P007,Yoga Mat,Sports,S01,Chennai,44,2553.29,5,106727.52,1,1,Thursday,April,Q2,0,,0,Spring,Sunny,0,2608.59,95.99,In-Store,Wholesale,6514.23
+103,12-04-2024,P006,Running Shoes,Apparel,S04,Delhi,40,4974.21,10,179071.56,1,1,Friday,April,Q2,0,,0,Spring,Stormy,1,5079.09,96.49,Wholesale,Retail,8601.53
+104,13-04-2024,P004,Notebook Pack,Stationery,S04,Delhi,45,2367.46,0,106535.7,1,1,Saturday,April,Q2,0,,1,Spring,Stormy,0,2327.68,96.43,In-Store,Corporate,6818.52
+105,14-04-2024,P006,Running Shoes,Apparel,S02,Bengaluru,46,3496.74,5,152807.54,1,1,Sunday,April,Q2,0,,1,Spring,Sunny,0,3212.27,96.45,Wholesale,Corporate,8211.81
+106,15-04-2024,P001,Wireless Mouse,Electronics,S03,Mumbai,42,3416.06,5,136300.79,1,1,Monday,April,Q2,0,,0,Spring,Stormy,0,3736.08,104.01,In-Store,Retail,5990.23
+107,16-04-2024,P004,Notebook Pack,Stationery,S02,Bengaluru,32,3352.33,0,107274.56,0,1,Tuesday,April,Q2,0,,0,Spring,Clear,0,3094.12,99.18,Online,Corporate,422.58
+108,17-04-2024,P001,Wireless Mouse,Electronics,S03,Mumbai,48,338.98,0,16271.04,0,1,Wednesday,April,Q2,0,,0,Spring,Cloudy,0,317.38,97.15,Wholesale,Corporate,34.79
+109,18-04-2024,P001,Wireless Mouse,Electronics,S01,Chennai,29,3781.34,0,109658.86,1,1,Thursday,April,Q2,0,,0,Spring,Stormy,0,3522.25,99.67,In-Store,Wholesale,6164.13
+110,19-04-2024,P001,Wireless Mouse,Electronics,S02,Bengaluru,70,955.57,10,60200.91,1,1,Friday,April,Q2,0,,0,Spring,Sunny,0,944.7,101.36,Wholesale,Corporate,4434.75
+111,20-04-2024,P004,Notebook Pack,Stationery,S01,Chennai,0,1856.83,0,0,0,0,Saturday,April,Q2,0,,1,Spring,Stormy,1,1918.9,95.68,In-Store,Wholesale,27.39
+112,21-04-2024,P004,Notebook Pack,Stationery,S03,Mumbai,57,4737.56,20,216032.74,1,1,Sunday,April,Q2,0,,1,Spring,Cloudy,0,4574.7,95.12,Wholesale,Corporate,2169.1
+113,22-04-2024,P007,Yoga Mat,Sports,S02,Bengaluru,69,2601.26,20,143589.55,1,1,Monday,April,Q2,0,,0,Spring,Sunny,0,2789.47,95.63,Online,Corporate,9251.04
+114,23-04-2024,P006,Running Shoes,Apparel,S04,Delhi,78,2952.32,15,195738.82,1,1,Tuesday,April,Q2,0,,0,Spring,Cloudy,0,2896.24,109.49,Online,Wholesale,4870.92
+115,24-04-2024,P006,Running Shoes,Apparel,S01,Chennai,25,2296.22,0,57405.5,0,1,Wednesday,April,Q2,0,,0,Spring,Clear,0,2307.22,100.94,In-Store,Wholesale,169.76
+116,25-04-2024,P006,Running Shoes,Apparel,S02,Bengaluru,96,566.62,15,46236.19,1,1,Thursday,April,Q2,0,,0,Spring,Clear,1,531.93,106.64,In-Store,Wholesale,9603.12
+117,26-04-2024,P003,Office Chair,Furniture,S02,Bengaluru,43,693.46,0,29818.78,0,1,Friday,April,Q2,0,,0,Spring,Clear,0,729.55,104.83,Online,Wholesale,247.06
+118,27-04-2024,P008,Coffee Maker,Appliances,S03,Mumbai,45,4348.38,15,166325.54,1,1,Saturday,April,Q2,0,,1,Spring,Rainy,0,3972.93,101.63,In-Store,Corporate,6118.49
+119,28-04-2024,P006,Running Shoes,Apparel,S01,Chennai,75,1689.96,5,120409.65,1,1,Sunday,April,Q2,0,,1,Spring,Sunny,0,1802.07,96.15,Online,Wholesale,6143.76
+120,29-04-2024,P007,Yoga Mat,Sports,S04,Delhi,83,2985.58,20,198242.51,1,1,Monday,April,Q2,0,,0,Spring,Stormy,1,3076.24,99.82,In-Store,Wholesale,1933.18
+121,30-04-2024,P001,Wireless Mouse,Electronics,S04,Delhi,106,696.81,20,59089.49,1,1,Tuesday,April,Q2,0,,0,Spring,Sunny,1,717.17,95.59,Wholesale,Corporate,9914.37
+122,01-05-2024,P003,Office Chair,Furniture,S03,Mumbai,50,1989.69,0,99484.5,1,1,Wednesday,May,Q2,0,,0,Spring,Cloudy,1,1811.56,104.46,In-Store,Retail,3632.06
+123,02-05-2024,P007,Yoga Mat,Sports,S03,Mumbai,11,1409.58,20,12404.3,1,0,Thursday,May,Q2,0,,0,Spring,Rainy,0,1291.6,104.95,In-Store,Corporate,9693.12
+124,03-05-2024,P007,Yoga Mat,Sports,S02,Bengaluru,0,3056.2,0,0,0,0,Friday,May,Q2,0,,0,Spring,Stormy,0,3247.63,105.05,Wholesale,Wholesale,456.22
+125,04-05-2024,P002,Bluetooth Speaker,Electronics,S04,Delhi,38,2640.74,0,100348.12,0,1,Saturday,May,Q2,0,,1,Spring,Rainy,0,2557.15,106.49,Online,Retail,499.99
+126,05-05-2024,P003,Office Chair,Furniture,S01,Chennai,118,1619.8,20,152909.12,1,1,Sunday,May,Q2,0,,1,Spring,Clear,1,1728.37,108.26,Online,Wholesale,3699.26
+127,06-05-2024,P003,Office Chair,Furniture,S04,Delhi,33,940.41,0,31033.53,0,1,Monday,May,Q2,0,,0,Spring,Sunny,0,914.89,105.79,In-Store,Wholesale,142.46
+128,07-05-2024,P008,Coffee Maker,Appliances,S02,Bengaluru,45,2763.25,0,124346.25,1,1,Tuesday,May,Q2,0,,0,Spring,Cloudy,1,3030.98,101.93,In-Store,Corporate,5277.61
+129,08-05-2024,P007,Yoga Mat,Sports,S02,Bengaluru,1,4121.08,20,3296.86,1,0,Wednesday,May,Q2,0,,0,Spring,Rainy,0,3751.98,102.21,In-Store,Wholesale,9375.79
+130,09-05-2024,P002,Bluetooth Speaker,Electronics,S03,Mumbai,40,602.6,0,24104,0,1,Thursday,May,Q2,0,,0,Spring,Clear,0,642.5,96.38,Online,Corporate,442.31
+131,10-05-2024,P001,Wireless Mouse,Electronics,S04,Delhi,63,455.63,10,25834.22,1,1,Friday,May,Q2,0,,0,Spring,Rainy,0,500.69,100.62,Online,Corporate,9342.85
+132,11-05-2024,P006,Running Shoes,Apparel,S02,Bengaluru,67,860.48,0,57652.16,1,1,Saturday,May,Q2,0,,1,Spring,Stormy,0,880.33,108.59,Online,Corporate,2548.72
+133,12-05-2024,P003,Office Chair,Furniture,S04,Delhi,44,733.7,0,32282.8,0,1,Sunday,May,Q2,0,,1,Spring,Sunny,0,695.32,104.58,Wholesale,Corporate,31.4
+134,13-05-2024,P008,Coffee Maker,Appliances,S01,Chennai,51,3233.38,10,148412.14,1,1,Monday,May,Q2,0,,0,Spring,Rainy,0,3187.62,104.22,Online,Wholesale,4457.39
+135,14-05-2024,P002,Bluetooth Speaker,Electronics,S03,Mumbai,0,524.86,10,0,1,0,Tuesday,May,Q2,0,,0,Spring,Clear,1,530.54,100.86,In-Store,Retail,6538.87
+136,15-05-2024,P006,Running Shoes,Apparel,S03,Mumbai,25,3787.12,0,94678,0,1,Wednesday,May,Q2,0,,0,Spring,Rainy,0,3992.76,106.03,In-Store,Retail,22.17
+137,16-05-2024,P006,Running Shoes,Apparel,S02,Bengaluru,39,4185.84,15,138760.6,1,1,Thursday,May,Q2,0,,0,Spring,Stormy,0,4446.62,95.95,In-Store,Retail,3287.7
+138,17-05-2024,P001,Wireless Mouse,Electronics,S02,Bengaluru,0,4451.79,0,0,0,0,Friday,May,Q2,0,,0,Spring,Stormy,1,4428.11,95.55,Wholesale,Retail,143.06
+139,18-05-2024,P001,Wireless Mouse,Electronics,S03,Mumbai,96,1511.44,20,116078.59,1,1,Saturday,May,Q2,0,,1,Spring,Stormy,0,1584.99,108.42,In-Store,Corporate,9750.37
+140,19-05-2024,P008,Coffee Maker,Appliances,S04,Delhi,0,1963.27,20,0,1,0,Sunday,May,Q2,0,,1,Spring,Cloudy,0,2052.43,96.18,Wholesale,Retail,5682.01
+141,20-05-2024,P006,Running Shoes,Apparel,S01,Chennai,83,584.33,15,41224.48,1,1,Monday,May,Q2,0,,0,Spring,Cloudy,0,596.32,101.39,Wholesale,Corporate,3839.7
+142,21-05-2024,P001,Wireless Mouse,Electronics,S03,Mumbai,51,3151.29,5,152680,1,1,Tuesday,May,Q2,0,,0,Spring,Sunny,0,3259.18,101.09,Wholesale,Wholesale,6954.4
+143,22-05-2024,P001,Wireless Mouse,Electronics,S02,Bengaluru,32,4273.61,15,116242.19,1,1,Wednesday,May,Q2,0,,0,Spring,Sunny,0,3903.71,106.68,In-Store,Corporate,4137.12
+144,23-05-2024,P001,Wireless Mouse,Electronics,S02,Bengaluru,29,3459.5,0,100325.5,0,1,Thursday,May,Q2,0,,0,Spring,Sunny,1,3208.82,100.5,In-Store,Wholesale,139.34
+145,24-05-2024,P002,Bluetooth Speaker,Electronics,S01,Chennai,2,3731.24,5,7089.36,1,0,Friday,May,Q2,0,,0,Spring,Stormy,1,3445.99,106.62,Wholesale,Corporate,2538.42
+146,25-05-2024,P005,LED Desk Lamp,Home,S04,Delhi,55,1160.86,0,63847.3,0,1,Saturday,May,Q2,0,,1,Spring,Rainy,0,1276.31,107.16,In-Store,Wholesale,173.71
+147,26-05-2024,P002,Bluetooth Speaker,Electronics,S03,Mumbai,50,4478.39,20,179135.6,1,1,Sunday,May,Q2,0,,1,Spring,Rainy,0,4486.23,96.82,Online,Retail,2748.99
+148,27-05-2024,P008,Coffee Maker,Appliances,S01,Chennai,62,1932.3,10,107822.34,1,1,Monday,May,Q2,0,,0,Spring,Stormy,1,1789.22,108.26,Online,Corporate,4282.52
+149,28-05-2024,P008,Coffee Maker,Appliances,S04,Delhi,4,3891.99,20,12454.37,1,0,Tuesday,May,Q2,0,,0,Spring,Sunny,0,4259.69,104.64,In-Store,Corporate,6961.04
+150,29-05-2024,P006,Running Shoes,Apparel,S02,Bengaluru,2,4414.21,20,7062.74,1,0,Wednesday,May,Q2,0,,0,Spring,Clear,0,4650.62,96.94,Wholesale,Retail,8398.21
+151,30-05-2024,P003,Office Chair,Furniture,S03,Mumbai,42,990.35,0,41594.7,0,1,Thursday,May,Q2,0,,0,Spring,Clear,0,1058.87,98.76,Wholesale,Wholesale,137.23
+152,31-05-2024,P005,LED Desk Lamp,Home,S01,Chennai,39,2612.35,0,101881.65,0,1,Friday,May,Q2,0,,0,Spring,Clear,1,2527.51,108.86,Online,Retail,40.61
+153,01-06-2024,P005,LED Desk Lamp,Home,S02,Bengaluru,0,3881.4,5,0,1,0,Saturday,June,Q2,0,,1,Summer,Sunny,0,4183.37,103.18,Wholesale,Corporate,5087.98
+154,02-06-2024,P007,Yoga Mat,Sports,S03,Mumbai,76,2377.01,15,153554.85,1,1,Sunday,June,Q2,0,,1,Summer,Rainy,0,2336.9,101.97,In-Store,Wholesale,1864.85
+155,03-06-2024,P006,Running Shoes,Apparel,S03,Mumbai,2,4881.8,0,9763.6,0,0,Monday,June,Q2,0,,0,Summer,Clear,0,4705.19,102,In-Store,Corporate,123.96
+156,04-06-2024,P002,Bluetooth Speaker,Electronics,S01,Chennai,0,1593.02,5,0,1,0,Tuesday,June,Q2,0,,0,Summer,Stormy,0,1740.43,108.53,In-Store,Wholesale,7350.72
+157,05-06-2024,P004,Notebook Pack,Stationery,S02,Bengaluru,69,2591.67,10,160942.71,1,1,Wednesday,June,Q2,0,,0,Summer,Stormy,0,2590.31,96.35,In-Store,Wholesale,4843.69
+158,06-06-2024,P004,Notebook Pack,Stationery,S02,Bengaluru,36,3000.05,0,108001.8,0,1,Thursday,June,Q2,0,,0,Summer,Stormy,1,3229.46,104.81,In-Store,Corporate,268.35
+159,07-06-2024,P002,Bluetooth Speaker,Electronics,S04,Delhi,32,842.89,0,26972.48,0,1,Friday,June,Q2,0,,0,Summer,Cloudy,0,826.13,103.55,Online,Corporate,276.61
+160,08-06-2024,P002,Bluetooth Speaker,Electronics,S04,Delhi,5,2620.43,20,10481.72,1,0,Saturday,June,Q2,0,,1,Summer,Cloudy,1,2714.97,96.78,Online,Corporate,4045.38
+161,09-06-2024,P006,Running Shoes,Apparel,S03,Mumbai,0,3823.83,0,0,1,0,Sunday,June,Q2,0,,1,Summer,Sunny,0,3471.21,105.7,In-Store,Wholesale,4841.39
+162,10-06-2024,P003,Office Chair,Furniture,S03,Mumbai,10,4670.57,0,46705.7,0,1,Monday,June,Q2,0,,0,Summer,Clear,0,4758.12,102.61,Wholesale,Wholesale,244.92
+163,11-06-2024,P005,LED Desk Lamp,Home,S04,Delhi,30,4115.59,0,123467.7,0,1,Tuesday,June,Q2,0,,0,Summer,Stormy,1,3957.29,108.48,Wholesale,Wholesale,13.32
+164,12-06-2024,P008,Coffee Maker,Appliances,S03,Mumbai,0,4841.94,20,0,1,0,Wednesday,June,Q2,0,,0,Summer,Clear,0,5056.34,103.75,Online,Wholesale,6475.74
+165,13-06-2024,P007,Yoga Mat,Sports,S02,Bengaluru,8,4143.97,0,33151.76,0,0,Thursday,June,Q2,0,,0,Summer,Sunny,0,3745.27,99.71,Online,Corporate,345.25
+166,14-06-2024,P007,Yoga Mat,Sports,S04,Delhi,59,4389.53,15,220134.93,1,1,Friday,June,Q2,0,,0,Summer,Rainy,1,4132.6,99.88,Wholesale,Corporate,5492.03
+167,15-06-2024,P006,Running Shoes,Apparel,S02,Bengaluru,73,2406.38,10,158099.17,1,1,Saturday,June,Q2,0,,1,Summer,Clear,0,2491.02,108.01,Wholesale,Wholesale,8134.7
+168,16-06-2024,P005,LED Desk Lamp,Home,S04,Delhi,15,1122.87,0,16843.05,0,0,Sunday,June,Q2,0,,1,Summer,Cloudy,0,1222.02,109.73,In-Store,Wholesale,103.64
+169,17-06-2024,P008,Coffee Maker,Appliances,S03,Mumbai,53,2503.06,10,119395.96,1,1,Monday,June,Q2,0,,0,Summer,Cloudy,0,2539.84,103.15,In-Store,Corporate,9568.78
+170,18-06-2024,P003,Office Chair,Furniture,S03,Mumbai,77,401.92,15,26305.66,1,1,Tuesday,June,Q2,0,,0,Summer,Cloudy,0,414.46,106.21,Online,Retail,8365.54
+171,19-06-2024,P005,LED Desk Lamp,Home,S03,Mumbai,0,858.91,10,0,1,0,Wednesday,June,Q2,0,,0,Summer,Rainy,0,781.74,108.58,Online,Wholesale,2711.95
+172,20-06-2024,P002,Bluetooth Speaker,Electronics,S04,Delhi,48,1785.41,5,81414.7,1,1,Thursday,June,Q2,0,,0,Summer,Rainy,0,1951.28,109.67,Online,Corporate,6702.48
+173,21-06-2024,P008,Coffee Maker,Appliances,S04,Delhi,61,3322.59,20,162142.39,1,1,Friday,June,Q2,0,,0,Summer,Cloudy,0,3419.54,108.62,Online,Wholesale,5954.27
+174,22-06-2024,P001,Wireless Mouse,Electronics,S02,Bengaluru,86,2205.85,20,151762.48,1,1,Saturday,June,Q2,0,,1,Summer,Sunny,0,2332.89,97.79,Wholesale,Corporate,8829.06
+175,23-06-2024,P001,Wireless Mouse,Electronics,S03,Mumbai,45,2926.22,0,131679.9,0,1,Sunday,June,Q2,0,,1,Summer,Stormy,1,2940.45,108.34,Online,Wholesale,234.01
+176,24-06-2024,P004,Notebook Pack,Stationery,S01,Chennai,76,1787.28,15,115458.29,1,1,Monday,June,Q2,0,,0,Summer,Cloudy,0,1613.59,100.06,In-Store,Wholesale,6906.81
+177,25-06-2024,P004,Notebook Pack,Stationery,S02,Bengaluru,68,3132.58,15,181063.12,1,1,Tuesday,June,Q2,0,,0,Summer,Stormy,1,3024.77,101.01,Online,Retail,9826.01
+178,26-06-2024,P008,Coffee Maker,Appliances,S03,Mumbai,15,4691.96,0,70379.4,0,1,Wednesday,June,Q2,0,,0,Summer,Rainy,0,4930.08,109.31,In-Store,Wholesale,361.44
+179,27-06-2024,P001,Wireless Mouse,Electronics,S03,Mumbai,52,3337.68,15,147525.46,1,1,Thursday,June,Q2,0,,0,Summer,Sunny,0,3314.58,97.4,Wholesale,Wholesale,9269.51
+180,28-06-2024,P005,LED Desk Lamp,Home,S01,Chennai,22,3265.81,0,71847.82,0,0,Friday,June,Q2,0,,0,Summer,Rainy,0,3564.54,102.17,In-Store,Wholesale,494.42
+181,29-06-2024,P006,Running Shoes,Apparel,S04,Delhi,5,3569.32,5,16954.27,1,0,Saturday,June,Q2,0,,1,Summer,Rainy,0,3698.06,103.94,Online,Wholesale,4744.11
+182,30-06-2024,P006,Running Shoes,Apparel,S01,Chennai,0,4602.77,0,0,0,0,Sunday,June,Q2,0,,1,Summer,Clear,0,4669.7,97.25,In-Store,Wholesale,220.92
+183,01-07-2024,P004,Notebook Pack,Stationery,S04,Delhi,65,636.52,10,37236.42,1,1,Monday,July,Q3,0,,0,Summer,Sunny,0,589.67,101.23,Wholesale,Retail,5808.57
+184,02-07-2024,P005,LED Desk Lamp,Home,S01,Chennai,90,2100.55,20,151239.6,1,1,Tuesday,July,Q3,0,,0,Summer,Rainy,1,1921.18,101.36,Wholesale,Retail,5641.05
+185,03-07-2024,P001,Wireless Mouse,Electronics,S01,Chennai,21,4933.46,5,98422.53,1,1,Wednesday,July,Q3,0,,0,Summer,Cloudy,0,4617.7,97.03,Wholesale,Wholesale,6635.87
+186,04-07-2024,P007,Yoga Mat,Sports,S03,Mumbai,29,4965.71,5,136805.31,1,1,Thursday,July,Q3,0,,0,Summer,Stormy,0,4548.84,109.46,Wholesale,Retail,6708.57
+187,05-07-2024,P006,Running Shoes,Apparel,S01,Chennai,73,1056.67,10,69423.22,1,1,Friday,July,Q3,0,,0,Summer,Clear,0,1104.82,98.34,Online,Retail,9795.66
+188,06-07-2024,P008,Coffee Maker,Appliances,S04,Delhi,77,2753.28,20,169602.05,1,1,Saturday,July,Q3,0,,1,Summer,Rainy,0,2668.57,99.13,Wholesale,Retail,806.06
+189,07-07-2024,P007,Yoga Mat,Sports,S01,Chennai,0,1355.2,0,0,0,0,Sunday,July,Q3,0,,1,Summer,Sunny,0,1381.7,105.55,Online,Retail,370.27
+190,08-07-2024,P007,Yoga Mat,Sports,S04,Delhi,25,1324.83,0,33120.75,0,1,Monday,July,Q3,0,,0,Summer,Clear,0,1254.39,108.75,Wholesale,Corporate,288.74
+191,09-07-2024,P006,Running Shoes,Apparel,S02,Bengaluru,30,1648.47,0,49454.1,0,1,Tuesday,July,Q3,0,,0,Summer,Cloudy,0,1503.72,109.23,Wholesale,Retail,313
+192,10-07-2024,P007,Yoga Mat,Sports,S04,Delhi,7,425.04,0,2975.28,1,0,Wednesday,July,Q3,0,,0,Summer,Cloudy,0,417.24,99.5,Online,Wholesale,4998.43
+193,11-07-2024,P004,Notebook Pack,Stationery,S03,Mumbai,24,4316.2,0,103588.8,1,1,Thursday,July,Q3,0,,0,Summer,Clear,0,4720.01,103.36,Online,Corporate,2807.16
+194,12-07-2024,P004,Notebook Pack,Stationery,S03,Mumbai,41,3304.19,5,128698.2,1,1,Friday,July,Q3,0,,0,Summer,Sunny,1,3452.6,97.86,In-Store,Corporate,6899.88
+195,13-07-2024,P001,Wireless Mouse,Electronics,S01,Chennai,1,1103.18,20,882.54,1,0,Saturday,July,Q3,0,,1,Summer,Clear,0,1098.63,108.04,In-Store,Corporate,9591.69
+196,14-07-2024,P001,Wireless Mouse,Electronics,S02,Bengaluru,54,4698.37,15,215655.18,1,1,Sunday,July,Q3,0,,1,Summer,Stormy,0,4882.19,105.56,In-Store,Retail,5744.75
+197,15-07-2024,P005,LED Desk Lamp,Home,S04,Delhi,56,2438,15,116048.8,1,1,Monday,July,Q3,0,,0,Summer,Cloudy,0,2369.56,108.24,In-Store,Retail,8126.76
+198,16-07-2024,P008,Coffee Maker,Appliances,S03,Mumbai,17,4588.79,0,78009.43,0,1,Tuesday,July,Q3,0,,0,Summer,Sunny,1,4922.93,106.12,Online,Corporate,276.66
+199,17-07-2024,P007,Yoga Mat,Sports,S03,Mumbai,41,931.57,0,38194.37,0,1,Wednesday,July,Q3,0,,0,Summer,Clear,0,931.44,104.82,Wholesale,Corporate,128.66
+200,18-07-2024,P008,Coffee Maker,Appliances,S04,Delhi,54,2411.98,15,110709.88,1,1,Thursday,July,Q3,0,,0,Summer,Rainy,0,2518.26,102.32,Wholesale,Wholesale,9593.75
+201,19-07-2024,P001,Wireless Mouse,Electronics,S01,Chennai,43,4736.9,15,173133.69,1,1,Friday,July,Q3,0,,0,Summer,Sunny,0,4393.47,104.46,Online,Wholesale,1934.78
+202,20-07-2024,P004,Notebook Pack,Stationery,S04,Delhi,4,1991.36,10,7168.9,1,0,Saturday,July,Q3,0,,1,Summer,Stormy,0,1798.49,102.98,In-Store,Retail,658.9
+203,21-07-2024,P005,LED Desk Lamp,Home,S03,Mumbai,111,282.28,20,25066.46,1,1,Sunday,July,Q3,0,,1,Summer,Rainy,0,305.88,102.87,Online,Retail,6387.92
+204,22-07-2024,P005,LED Desk Lamp,Home,S03,Mumbai,66,1483.16,5,92994.13,1,1,Monday,July,Q3,0,,0,Summer,Cloudy,0,1471,98.65,Wholesale,Retail,3349.76
+205,23-07-2024,P002,Bluetooth Speaker,Electronics,S01,Chennai,55,648.8,5,33899.8,1,1,Tuesday,July,Q3,0,,0,Summer,Clear,0,591.2,95.14,Online,Retail,5248.65
+206,24-07-2024,P007,Yoga Mat,Sports,S03,Mumbai,58,2916.11,20,135307.5,1,1,Wednesday,July,Q3,0,,0,Summer,Clear,0,2758.5,108.52,Wholesale,Wholesale,5017.25
+207,25-07-2024,P001,Wireless Mouse,Electronics,S01,Chennai,19,3485.26,0,66219.94,0,1,Thursday,July,Q3,0,,0,Summer,Cloudy,0,3806.93,103.81,Wholesale,Corporate,464.44
+208,26-07-2024,P005,LED Desk Lamp,Home,S02,Bengaluru,55,2907,10,143896.5,1,1,Friday,July,Q3,0,,0,Summer,Clear,0,2839.47,106.1,Wholesale,Wholesale,1245.06
+209,27-07-2024,P006,Running Shoes,Apparel,S01,Chennai,69,668.89,0,46153.41,0,1,Saturday,July,Q3,0,,1,Summer,Clear,1,729.74,100.95,In-Store,Retail,317.06
+210,28-07-2024,P008,Coffee Maker,Appliances,S04,Delhi,108,1295.06,10,125879.83,1,1,Sunday,July,Q3,0,,1,Summer,Stormy,0,1341.6,104.91,Online,Wholesale,3306.11
+211,29-07-2024,P004,Notebook Pack,Stationery,S01,Chennai,64,593.78,0,38001.92,1,1,Monday,July,Q3,0,,0,Summer,Stormy,0,577.24,96.37,In-Store,Corporate,3919.22
+212,30-07-2024,P005,LED Desk Lamp,Home,S01,Chennai,78,836.03,0,65210.34,1,1,Tuesday,July,Q3,0,,0,Summer,Clear,1,838.11,96.55,Online,Corporate,5765.09
+213,31-07-2024,P006,Running Shoes,Apparel,S04,Delhi,90,259.23,5,22164.17,1,1,Wednesday,July,Q3,0,,0,Summer,Sunny,1,280.24,109.67,Wholesale,Wholesale,2111.04
+214,01-08-2024,P007,Yoga Mat,Sports,S02,Bengaluru,47,866.43,0,40722.21,0,1,Thursday,August,Q3,0,,0,Summer,Rainy,0,808.76,99.14,In-Store,Corporate,391.33
+215,02-08-2024,P006,Running Shoes,Apparel,S03,Mumbai,50,4732.27,15,201121.48,1,1,Friday,August,Q3,0,,0,Summer,Clear,1,4444.12,96.6,In-Store,Retail,9513.82
+216,03-08-2024,P006,Running Shoes,Apparel,S04,Delhi,52,4059.57,0,211097.64,1,1,Saturday,August,Q3,0,,1,Summer,Stormy,1,3764.13,99.81,Wholesale,Retail,5050.59
+217,04-08-2024,P003,Office Chair,Furniture,S04,Delhi,0,4849.88,0,0,1,0,Sunday,August,Q3,0,,1,Summer,Rainy,0,4729.66,107.25,In-Store,Corporate,1581.93
+218,05-08-2024,P004,Notebook Pack,Stationery,S02,Bengaluru,43,3472.22,10,134374.91,1,1,Monday,August,Q3,0,,0,Summer,Stormy,0,3429.48,99.37,Wholesale,Retail,8280.17
+219,06-08-2024,P007,Yoga Mat,Sports,S04,Delhi,37,868.06,0,32118.22,0,1,Tuesday,August,Q3,0,,0,Summer,Rainy,0,918.25,96.11,Wholesale,Corporate,291.12
+220,07-08-2024,P007,Yoga Mat,Sports,S01,Chennai,11,3995.46,0,43950.06,0,1,Wednesday,August,Q3,0,,0,Summer,Rainy,0,3728.83,104.19,Wholesale,Wholesale,338.74
+221,08-08-2024,P007,Yoga Mat,Sports,S03,Mumbai,43,4835.44,5,197527.72,1,1,Thursday,August,Q3,0,,0,Summer,Sunny,0,4602.12,102.66,Wholesale,Wholesale,6014.92
+222,09-08-2024,P004,Notebook Pack,Stationery,S04,Delhi,0,1995.77,5,0,1,0,Friday,August,Q3,0,,0,Summer,Clear,0,1933.89,95.37,Online,Corporate,4451.77
+223,10-08-2024,P002,Bluetooth Speaker,Electronics,S01,Chennai,61,4190.33,15,217268.61,1,1,Saturday,August,Q3,0,,1,Summer,Cloudy,0,4058.81,106.76,Wholesale,Corporate,3808.85
+224,11-08-2024,P002,Bluetooth Speaker,Electronics,S04,Delhi,33,3665.57,5,114915.62,1,1,Sunday,August,Q3,0,,1,Summer,Sunny,0,3331.77,105.66,Online,Corporate,6655.71
+225,12-08-2024,P003,Office Chair,Furniture,S02,Bengaluru,61,2676.77,10,146954.67,1,1,Monday,August,Q3,0,,0,Summer,Cloudy,1,2637.35,101.93,In-Store,Wholesale,2252.29
+226,13-08-2024,P007,Yoga Mat,Sports,S04,Delhi,97,340.12,10,29692.48,1,1,Tuesday,August,Q3,0,,0,Summer,Stormy,1,335.33,95.07,Online,Retail,3144.28
+227,14-08-2024,P002,Bluetooth Speaker,Electronics,S01,Chennai,40,4037.61,10,145353.96,1,1,Wednesday,August,Q3,0,,0,Summer,Cloudy,0,3792.99,96.71,Wholesale,Corporate,5513.29
+228,15-08-2024,P006,Running Shoes,Apparel,S04,Delhi,70,3134.28,10,197459.64,1,1,Thursday,August,Q3,1,Independence Day,0,Summer,Cloudy,0,3350.87,104.26,Wholesale,Wholesale,8105.83
+229,16-08-2024,P002,Bluetooth Speaker,Electronics,S02,Bengaluru,27,1703.29,0,45988.83,0,1,Friday,August,Q3,0,,0,Summer,Rainy,0,1769.19,102.66,In-Store,Wholesale,68.93
+230,17-08-2024,P007,Yoga Mat,Sports,S04,Delhi,5,1091.62,15,4639.38,1,0,Saturday,August,Q3,0,,1,Summer,Rainy,1,1018.89,99.33,Online,Corporate,8498.86
+231,18-08-2024,P001,Wireless Mouse,Electronics,S03,Mumbai,29,4768.84,5,131381.54,1,1,Sunday,August,Q3,0,,1,Summer,Rainy,0,5211.23,102.58,In-Store,Corporate,7004.62
+232,19-08-2024,P007,Yoga Mat,Sports,S04,Delhi,26,2545.76,0,66189.76,0,1,Monday,August,Q3,0,,0,Summer,Cloudy,0,2431.13,103.06,Online,Corporate,282.83
+233,20-08-2024,P008,Coffee Maker,Appliances,S01,Chennai,0,2949.03,0,0,0,0,Tuesday,August,Q3,0,,0,Summer,Sunny,0,2976.37,109.85,Online,Wholesale,415.04
+234,21-08-2024,P004,Notebook Pack,Stationery,S03,Mumbai,16,4399.09,0,70385.44,1,1,Wednesday,August,Q3,0,,0,Summer,Cloudy,0,4345.48,109.91,Online,Retail,8201.68
+235,22-08-2024,P006,Running Shoes,Apparel,S04,Delhi,69,996.71,0,68772.99,0,1,Thursday,August,Q3,0,,0,Summer,Sunny,1,966.97,99.22,Wholesale,Retail,161.83
+236,23-08-2024,P005,LED Desk Lamp,Home,S03,Mumbai,5,2949.13,20,11796.52,1,0,Friday,August,Q3,0,,0,Summer,Sunny,0,3222.08,106.79,Online,Corporate,8736.95
+237,24-08-2024,P003,Office Chair,Furniture,S02,Bengaluru,67,1398.45,15,79641.73,1,1,Saturday,August,Q3,0,,1,Summer,Rainy,0,1395.5,103.66,In-Store,Wholesale,4435.14
+238,25-08-2024,P008,Coffee Maker,Appliances,S01,Chennai,86,3241.41,20,223009.01,1,1,Sunday,August,Q3,0,,1,Summer,Stormy,1,3403.35,105.42,In-Store,Corporate,9527.41
+239,26-08-2024,P006,Running Shoes,Apparel,S01,Chennai,46,4370.76,20,160843.97,1,1,Monday,August,Q3,0,,0,Summer,Stormy,0,4676.81,106.94,In-Store,Retail,9697.22
+240,27-08-2024,P004,Notebook Pack,Stationery,S04,Delhi,99,1488.98,20,117927.22,1,1,Tuesday,August,Q3,0,,0,Summer,Cloudy,1,1512.19,103.49,In-Store,Corporate,8994.47
+241,28-08-2024,P001,Wireless Mouse,Electronics,S01,Chennai,82,677.96,20,44474.18,1,1,Wednesday,August,Q3,0,,0,Summer,Sunny,0,736.19,97.37,In-Store,Retail,9922.46
+242,29-08-2024,P007,Yoga Mat,Sports,S02,Bengaluru,0,4979.33,0,0,0,1,Thursday,August,Q3,0,,0,Summer,Cloudy,0,5133.28,98.76,In-Store,Wholesale,451.9
+243,30-08-2024,P003,Office Chair,Furniture,S01,Chennai,33,2102.44,0,69380.52,0,1,Friday,August,Q3,0,,0,Summer,Sunny,0,1892.65,102.15,Online,Wholesale,113.1
+244,31-08-2024,P008,Coffee Maker,Appliances,S01,Chennai,65,238.7,0,15515.5,0,1,Saturday,August,Q3,0,,1,Summer,Rainy,0,218.21,100.75,Wholesale,Retail,51.6
+245,01-09-2024,P006,Running Shoes,Apparel,S03,Mumbai,87,858.22,20,59732.11,1,1,Sunday,September,Q3,0,,1,Autumn,Rainy,0,863.46,95.13,Wholesale,Retail,4680.94
+246,02-09-2024,P004,Notebook Pack,Stationery,S02,Bengaluru,31,4615.49,10,128772.17,1,1,Monday,September,Q3,0,,0,Autumn,Rainy,0,4981.58,97.1,Online,Wholesale,7435.09
+247,03-09-2024,P006,Running Shoes,Apparel,S04,Delhi,29,1709.62,0,49578.98,0,1,Tuesday,September,Q3,0,,0,Autumn,Sunny,0,1727.88,104,Wholesale,Corporate,389.48
+248,04-09-2024,P001,Wireless Mouse,Electronics,S03,Mumbai,0,1186.14,10,0,1,0,Wednesday,September,Q3,0,,0,Autumn,Rainy,0,1137.64,95.82,Online,Corporate,4165.91
+249,05-09-2024,P004,Notebook Pack,Stationery,S04,Delhi,31,3262.8,0,101146.8,0,1,Thursday,September,Q3,0,,0,Autumn,Cloudy,0,3188.96,107.58,In-Store,Corporate,273.18
+250,06-09-2024,P003,Office Chair,Furniture,S04,Delhi,62,4781.37,20,237155.95,1,1,Friday,September,Q3,0,,0,Autumn,Sunny,1,4367.81,98.93,Online,Retail,9512.46
+251,07-09-2024,P007,Yoga Mat,Sports,S03,Mumbai,48,3217.14,10,138980.45,1,1,Saturday,September,Q3,0,,1,Autumn,Stormy,0,2948.46,103.05,Wholesale,Retail,3135.94
+252,08-09-2024,P005,LED Desk Lamp,Home,S01,Chennai,7,2654.26,0,18579.82,0,0,Sunday,September,Q3,0,,1,Autumn,Cloudy,0,2700.15,106.45,Wholesale,Wholesale,321.58
+253,09-09-2024,P005,LED Desk Lamp,Home,S04,Delhi,75,3703.8,20,222228,1,1,Monday,September,Q3,0,,0,Autumn,Sunny,0,3397.28,101.52,In-Store,Wholesale,6283.91
+254,10-09-2024,P005,LED Desk Lamp,Home,S02,Bengaluru,88,773.33,15,57845.08,1,1,Tuesday,September,Q3,0,,0,Autumn,Sunny,0,772.78,100.2,Wholesale,Wholesale,2962.85
+255,11-09-2024,P006,Running Shoes,Apparel,S02,Bengaluru,45,3798.93,20,136761.48,1,1,Wednesday,September,Q3,0,,0,Autumn,Sunny,0,3673.57,101.44,Wholesale,Retail,2998.02
+256,12-09-2024,P002,Bluetooth Speaker,Electronics,S04,Delhi,22,2384.95,0,52468.9,0,1,Thursday,September,Q3,0,,0,Autumn,Clear,0,2321.84,98.83,Online,Wholesale,337.06
+257,13-09-2024,P002,Bluetooth Speaker,Electronics,S02,Bengaluru,23,3755.74,0,86382.02,0,1,Friday,September,Q3,0,,0,Autumn,Rainy,0,3734.53,100.74,Online,Retail,465.58
+258,14-09-2024,P001,Wireless Mouse,Electronics,S04,Delhi,57,1277.67,0,72827.19,1,1,Saturday,September,Q3,0,,1,Autumn,Cloudy,0,1295.95,96.79,Wholesale,Retail,2203.77
+259,15-09-2024,P001,Wireless Mouse,Electronics,S04,Delhi,81,530.85,5,40848.91,1,1,Sunday,September,Q3,0,,1,Autumn,Cloudy,0,486.94,101.85,In-Store,Retail,3270.15
+260,16-09-2024,P005,LED Desk Lamp,Home,S02,Bengaluru,74,2426.85,10,161628.21,1,1,Monday,September,Q3,0,,0,Autumn,Rainy,1,2553.28,98.68,Online,Corporate,727.15
+261,17-09-2024,P006,Running Shoes,Apparel,S01,Chennai,10,4764.75,0,47647.5,1,1,Tuesday,September,Q3,0,,0,Autumn,Sunny,0,4793.16,98.57,In-Store,Retail,9739.31
+262,18-09-2024,P003,Office Chair,Furniture,S03,Mumbai,58,646.53,0,37498.74,1,1,Wednesday,September,Q3,0,,0,Autumn,Stormy,0,656.97,102.58,Wholesale,Corporate,1210.89
+263,19-09-2024,P001,Wireless Mouse,Electronics,S04,Delhi,0,3379.73,0,0,0,1,Thursday,September,Q3,0,,0,Autumn,Cloudy,0,3667.71,100.89,Wholesale,Corporate,159.03
+264,20-09-2024,P005,LED Desk Lamp,Home,S02,Bengaluru,0,558.5,0,0,0,0,Friday,September,Q3,0,,0,Autumn,Sunny,0,514.45,101.74,In-Store,Corporate,60.37
+265,21-09-2024,P006,Running Shoes,Apparel,S02,Bengaluru,57,2369.2,5,128292.18,1,1,Saturday,September,Q3,0,,1,Autumn,Sunny,0,2206.96,105.29,Wholesale,Wholesale,6231.37
+266,22-09-2024,P004,Notebook Pack,Stationery,S03,Mumbai,78,911.95,15,60462.29,1,1,Sunday,September,Q3,0,,1,Autumn,Cloudy,0,914.4,105.16,In-Store,Retail,795.28
+267,23-09-2024,P007,Yoga Mat,Sports,S04,Delhi,64,2868.58,10,165230.21,1,1,Monday,September,Q3,0,,0,Autumn,Sunny,0,2640.19,106.91,Online,Retail,1085.86
+268,24-09-2024,P004,Notebook Pack,Stationery,S02,Bengaluru,62,1151.04,5,67796.26,1,1,Tuesday,September,Q3,0,,0,Autumn,Sunny,1,1170.87,108.76,Online,Retail,9973.03
+269,25-09-2024,P004,Notebook Pack,Stationery,S04,Delhi,6,4084.63,0,24507.78,0,1,Wednesday,September,Q3,0,,0,Autumn,Sunny,0,3717.53,108.86,In-Store,Wholesale,197.5
+270,26-09-2024,P001,Wireless Mouse,Electronics,S04,Delhi,16,3479.42,0,55670.72,0,1,Thursday,September,Q3,0,,0,Autumn,Rainy,0,3326.22,108.25,Online,Wholesale,309.59
+271,27-09-2024,P004,Notebook Pack,Stationery,S03,Mumbai,66,2594.68,10,154123.99,1,1,Friday,September,Q3,0,,0,Autumn,Sunny,0,2480.4,97.06,Online,Wholesale,8904.2
+272,28-09-2024,P004,Notebook Pack,Stationery,S01,Chennai,56,4949.14,20,221721.47,1,1,Saturday,September,Q3,0,,1,Autumn,Stormy,1,5227.71,100.16,Wholesale,Wholesale,3555.24
+273,29-09-2024,P005,LED Desk Lamp,Home,S02,Bengaluru,96,325.1,10,28088.64,1,1,Sunday,September,Q3,0,,1,Autumn,Sunny,0,296.4,109.87,Wholesale,Corporate,7785
+274,30-09-2024,P004,Notebook Pack,Stationery,S02,Bengaluru,93,680.64,15,53804.59,1,1,Monday,September,Q3,0,,0,Autumn,Cloudy,1,723.7,108.76,Online,Retail,5969.08
+275,01-10-2024,P007,Yoga Mat,Sports,S03,Mumbai,40,4688.99,20,150047.68,1,1,Tuesday,October,Q4,0,,0,Autumn,Rainy,0,4775.75,107.09,Wholesale,Corporate,9182.81
+276,02-10-2024,P001,Wireless Mouse,Electronics,S03,Mumbai,66,4748.28,10,282047.83,1,1,Wednesday,October,Q4,1,Gandhi Jayanti,0,Autumn,Clear,0,5068.03,107.16,In-Store,Wholesale,3436
+277,03-10-2024,P008,Coffee Maker,Appliances,S01,Chennai,45,633.24,0,28495.8,0,1,Thursday,October,Q4,0,,0,Autumn,Clear,0,570,108.77,Online,Retail,170.38
+278,04-10-2024,P003,Office Chair,Furniture,S03,Mumbai,40,485.87,0,19434.8,0,1,Friday,October,Q4,0,,0,Autumn,Clear,0,530.62,100.6,Wholesale,Corporate,293.01
+279,05-10-2024,P006,Running Shoes,Apparel,S03,Mumbai,58,1748.5,0,101413,1,1,Saturday,October,Q4,0,,1,Autumn,Cloudy,0,1820.95,103.43,Wholesale,Corporate,2620.75
+280,06-10-2024,P003,Office Chair,Furniture,S04,Delhi,78,1672.75,15,110903.32,1,1,Sunday,October,Q4,0,,1,Autumn,Rainy,0,1749.31,109.23,Wholesale,Corporate,8582.19
+281,07-10-2024,P001,Wireless Mouse,Electronics,S02,Bengaluru,1,3091.47,20,2473.18,1,0,Monday,October,Q4,0,,0,Autumn,Rainy,1,2846.69,102.44,In-Store,Wholesale,1239.16
+282,08-10-2024,P006,Running Shoes,Apparel,S03,Mumbai,45,1005.86,0,45263.7,0,1,Tuesday,October,Q4,0,,0,Autumn,Sunny,0,947.46,105.4,In-Store,Corporate,393.51
+283,09-10-2024,P001,Wireless Mouse,Electronics,S01,Chennai,80,2052.5,15,139570,1,1,Wednesday,October,Q4,0,,0,Autumn,Rainy,0,2049.66,100.68,Wholesale,Corporate,1463.57
+284,10-10-2024,P008,Coffee Maker,Appliances,S02,Bengaluru,30,980.75,0,29422.5,0,1,Thursday,October,Q4,0,,0,Autumn,Sunny,0,933.9,96.57,In-Store,Retail,443.97
+285,11-10-2024,P003,Office Chair,Furniture,S01,Chennai,17,2825.82,0,48038.94,0,0,Friday,October,Q4,0,,0,Autumn,Clear,0,2941.4,101.47,Wholesale,Retail,303.66
+286,12-10-2024,P007,Yoga Mat,Sports,S02,Bengaluru,52,457.07,0,23767.64,0,1,Saturday,October,Q4,0,,1,Autumn,Stormy,1,477.37,105.95,In-Store,Wholesale,140.76
+287,13-10-2024,P004,Notebook Pack,Stationery,S01,Chennai,0,438.25,10,0,1,0,Sunday,October,Q4,0,,1,Autumn,Stormy,0,399.2,95.06,Online,Corporate,8327.02
+288,14-10-2024,P008,Coffee Maker,Appliances,S02,Bengaluru,48,665.54,0,31945.92,0,1,Monday,October,Q4,0,,0,Autumn,Sunny,0,711.3,99.63,In-Store,Corporate,244.55
+289,15-10-2024,P005,LED Desk Lamp,Home,S01,Chennai,42,3280.96,5,130910.3,1,1,Tuesday,October,Q4,0,,0,Autumn,Cloudy,0,3195.26,101.69,In-Store,Corporate,4918.05
+290,16-10-2024,P004,Notebook Pack,Stationery,S03,Mumbai,28,2908.38,0,81434.64,0,1,Wednesday,October,Q4,0,,0,Autumn,Cloudy,1,2858.35,106.35,Online,Wholesale,30.49
+291,17-10-2024,P007,Yoga Mat,Sports,S04,Delhi,37,4835.01,15,152061.06,1,1,Thursday,October,Q4,0,,0,Autumn,Clear,0,4812.06,96.18,Wholesale,Retail,5269.96
+292,18-10-2024,P003,Office Chair,Furniture,S01,Chennai,21,4756.42,5,94890.58,1,1,Friday,October,Q4,0,,0,Autumn,Rainy,0,5049.85,96.89,In-Store,Retail,9888.66
+293,19-10-2024,P007,Yoga Mat,Sports,S02,Bengaluru,43,4986.89,15,182270.83,1,1,Saturday,October,Q4,0,,1,Autumn,Clear,0,4807.11,105.91,Online,Retail,4186.94
+294,20-10-2024,P007,Yoga Mat,Sports,S03,Mumbai,66,4311.8,10,256120.92,1,1,Sunday,October,Q4,0,,1,Autumn,Sunny,1,4387.32,106.73,Online,Corporate,1921.6
+295,21-10-2024,P002,Bluetooth Speaker,Electronics,S01,Chennai,3,2900.88,0,8702.64,0,0,Monday,October,Q4,0,,0,Autumn,Cloudy,0,2764.04,104.82,Wholesale,Wholesale,236.52
+296,22-10-2024,P003,Office Chair,Furniture,S03,Mumbai,0,2134.28,10,0,1,0,Tuesday,October,Q4,0,,0,Autumn,Stormy,0,2089.8,108.18,Wholesale,Retail,968.26
+297,23-10-2024,P008,Coffee Maker,Appliances,S03,Mumbai,12,4505.75,0,54069,0,1,Wednesday,October,Q4,0,,0,Autumn,Cloudy,0,4814.71,107.87,Wholesale,Retail,486.25
+298,24-10-2024,P004,Notebook Pack,Stationery,S02,Bengaluru,74,1642.31,15,103301.3,1,1,Thursday,October,Q4,0,,0,Autumn,Cloudy,0,1717.46,104.07,Online,Retail,4696.31
+299,25-10-2024,P007,Yoga Mat,Sports,S04,Delhi,75,3845.57,20,230734.2,1,1,Friday,October,Q4,0,,0,Autumn,Sunny,1,4069.76,95.98,Wholesale,Wholesale,4332.16
+300,26-10-2024,P001,Wireless Mouse,Electronics,S02,Bengaluru,99,1125.26,20,89120.59,1,1,Saturday,October,Q4,0,,1,Autumn,Sunny,0,1020.18,95.76,In-Store,Wholesale,2391.54
+301,27-10-2024,P006,Running Shoes,Apparel,S04,Delhi,65,2624.61,15,145009.7,1,1,Sunday,October,Q4,0,,1,Autumn,Sunny,0,2557.66,103.91,Online,Corporate,6075.36
+302,28-10-2024,P006,Running Shoes,Apparel,S03,Mumbai,36,984.87,0,35455.32,0,1,Monday,October,Q4,0,,0,Autumn,Sunny,0,896.16,107.81,Online,Retail,323.69
+303,29-10-2024,P004,Notebook Pack,Stationery,S03,Mumbai,53,3327.62,10,158727.47,1,1,Tuesday,October,Q4,0,,0,Autumn,Sunny,0,3601.49,104.71,Wholesale,Retail,2625.82
+304,30-10-2024,P005,LED Desk Lamp,Home,S03,Mumbai,55,2234.27,5,116740.61,1,1,Wednesday,October,Q4,0,,0,Autumn,Stormy,0,2108.35,99.53,Wholesale,Wholesale,4272.95
+305,31-10-2024,P002,Bluetooth Speaker,Electronics,S01,Chennai,103,2655.27,15,232468.89,1,1,Thursday,October,Q4,1,Diwali,0,Autumn,Clear,1,2713.18,99.48,Online,Corporate,1106.45
+306,01-11-2024,P005,LED Desk Lamp,Home,S03,Mumbai,20,4335.16,0,86703.2,0,1,Friday,November,Q4,0,,0,Autumn,Rainy,1,4565.33,108.5,Wholesale,Corporate,330.27
+307,02-11-2024,P003,Office Chair,Furniture,S01,Chennai,37,3345.92,0,123799.04,0,1,Saturday,November,Q4,0,,1,Autumn,Stormy,0,3504.34,103.75,Wholesale,Retail,171.58
+308,03-11-2024,P004,Notebook Pack,Stationery,S04,Delhi,47,4551.33,15,181825.63,1,1,Sunday,November,Q4,0,,1,Autumn,Clear,0,4865.75,107.61,Wholesale,Retail,3290.95
+309,04-11-2024,P008,Coffee Maker,Appliances,S02,Bengaluru,4,3756.41,15,12771.79,1,0,Monday,November,Q4,0,,0,Autumn,Rainy,0,3872.43,98.33,Online,Wholesale,8778.61
+310,05-11-2024,P007,Yoga Mat,Sports,S03,Mumbai,59,1984.08,10,105354.65,1,1,Tuesday,November,Q4,0,,0,Autumn,Stormy,0,1972.39,108,Wholesale,Wholesale,9470.86
+311,06-11-2024,P002,Bluetooth Speaker,Electronics,S04,Delhi,46,4469.25,10,185026.95,1,1,Wednesday,November,Q4,0,,0,Autumn,Stormy,1,4289.01,95.81,Online,Retail,9927.3
+312,07-11-2024,P006,Running Shoes,Apparel,S04,Delhi,32,4938.52,5,150131.01,1,1,Thursday,November,Q4,0,,0,Autumn,Cloudy,0,5214.03,102.31,Wholesale,Retail,3477.43
+313,08-11-2024,P001,Wireless Mouse,Electronics,S01,Chennai,7,2369.86,0,16589.02,0,0,Friday,November,Q4,0,,0,Autumn,Rainy,0,2505.04,106.7,Online,Wholesale,216.86
+314,09-11-2024,P007,Yoga Mat,Sports,S04,Delhi,66,2259.32,5,141659.36,1,1,Saturday,November,Q4,0,,1,Autumn,Sunny,0,2274.59,105.96,Online,Corporate,7690.05
+315,10-11-2024,P004,Notebook Pack,Stationery,S01,Chennai,73,3448.39,15,213972.6,1,1,Sunday,November,Q4,0,,1,Autumn,Rainy,0,3318.79,96.54,Wholesale,Wholesale,3408.09
+316,11-11-2024,P002,Bluetooth Speaker,Electronics,S01,Chennai,0,1631.37,0,0,1,0,Monday,November,Q4,0,,0,Autumn,Clear,1,1578.46,108.32,Online,Corporate,9963.32
+317,12-11-2024,P008,Coffee Maker,Appliances,S03,Mumbai,32,3800.55,0,121617.6,1,1,Tuesday,November,Q4,0,,0,Autumn,Rainy,0,3973.22,96.97,Wholesale,Retail,6102.08
+318,13-11-2024,P003,Office Chair,Furniture,S01,Chennai,65,1959.64,15,108270.11,1,1,Wednesday,November,Q4,0,,0,Autumn,Stormy,0,2065.95,104.35,Wholesale,Retail,6788.71
+319,14-11-2024,P001,Wireless Mouse,Electronics,S01,Chennai,40,3510.8,5,133410.4,1,1,Thursday,November,Q4,0,,0,Autumn,Stormy,0,3544,102.12,Online,Retail,7104.32
+320,15-11-2024,P001,Wireless Mouse,Electronics,S03,Mumbai,0,2220.18,0,0,0,0,Friday,November,Q4,0,,0,Autumn,Clear,0,2184.14,108.48,Wholesale,Wholesale,308.85
+321,16-11-2024,P005,LED Desk Lamp,Home,S01,Chennai,44,3966.85,5,165814.33,1,1,Saturday,November,Q4,0,,1,Autumn,Clear,0,4187.37,107.47,Online,Corporate,7182.65
+322,17-11-2024,P005,LED Desk Lamp,Home,S02,Bengaluru,83,389.15,5,30684.48,1,1,Sunday,November,Q4,0,,1,Autumn,Stormy,0,368.49,95.19,Online,Retail,8434.71
+323,18-11-2024,P008,Coffee Maker,Appliances,S02,Bengaluru,0,4757.34,20,0,1,0,Monday,November,Q4,0,,0,Autumn,Sunny,0,5142.47,104.67,In-Store,Corporate,3009.19
+324,19-11-2024,P001,Wireless Mouse,Electronics,S01,Chennai,71,4103.26,20,233065.17,1,1,Tuesday,November,Q4,0,,0,Autumn,Cloudy,0,4350.77,99.69,Wholesale,Retail,1402.49
+325,20-11-2024,P001,Wireless Mouse,Electronics,S01,Chennai,37,4289.59,15,134907.61,1,1,Wednesday,November,Q4,0,,0,Autumn,Cloudy,0,4628.06,109.33,In-Store,Wholesale,1383.04
+326,21-11-2024,P006,Running Shoes,Apparel,S02,Bengaluru,55,746.39,5,38998.88,1,1,Thursday,November,Q4,0,,0,Autumn,Cloudy,0,774.74,102.17,In-Store,Wholesale,8918.18
+327,22-11-2024,P003,Office Chair,Furniture,S01,Chennai,88,836.06,15,62537.29,1,1,Friday,November,Q4,0,,0,Autumn,Rainy,0,822.02,103.86,Wholesale,Wholesale,4662.55
+328,23-11-2024,P007,Yoga Mat,Sports,S03,Mumbai,80,3134.52,20,200609.28,1,1,Saturday,November,Q4,0,,1,Autumn,Stormy,0,2891.87,101.17,Online,Retail,2985.32
+329,24-11-2024,P006,Running Shoes,Apparel,S01,Chennai,5,3581.93,15,15223.2,1,0,Sunday,November,Q4,0,,1,Autumn,Clear,1,3384.2,109.34,In-Store,Wholesale,5469.48
+330,25-11-2024,P002,Bluetooth Speaker,Electronics,S04,Delhi,36,3376.22,0,121543.92,1,1,Monday,November,Q4,0,,0,Autumn,Stormy,0,3605.15,103.38,Wholesale,Retail,610.63
+331,26-11-2024,P003,Office Chair,Furniture,S04,Delhi,52,4288.98,20,178421.57,1,1,Tuesday,November,Q4,0,,0,Autumn,Sunny,0,4135.12,99.96,In-Store,Retail,5315.83
+332,27-11-2024,P007,Yoga Mat,Sports,S04,Delhi,17,4122.1,0,70075.7,1,1,Wednesday,November,Q4,0,,0,Autumn,Clear,0,3782.46,102.48,In-Store,Retail,9816.37
+333,28-11-2024,P001,Wireless Mouse,Electronics,S01,Chennai,41,2136.51,0,87596.91,0,1,Thursday,November,Q4,0,,0,Autumn,Clear,1,2195.28,108.35,Wholesale,Retail,327.3
+334,29-11-2024,P008,Coffee Maker,Appliances,S03,Mumbai,37,1944.04,0,71929.48,0,1,Friday,November,Q4,0,,0,Autumn,Cloudy,1,2048.01,104,Wholesale,Wholesale,181.65
+335,30-11-2024,P008,Coffee Maker,Appliances,S01,Chennai,99,667.7,15,56186.96,1,1,Saturday,November,Q4,0,,1,Autumn,Sunny,0,648.36,104.5,In-Store,Wholesale,5458.86
+336,01-12-2024,P002,Bluetooth Speaker,Electronics,S01,Chennai,36,4505.01,5,154071.34,1,1,Sunday,December,Q4,0,,1,Winter,Stormy,0,4283.62,97.94,Online,Corporate,2548.1
+337,02-12-2024,P004,Notebook Pack,Stationery,S03,Mumbai,59,717.28,5,40203.54,1,1,Monday,December,Q4,0,,0,Winter,Clear,0,756.32,101.76,Wholesale,Wholesale,9583.81
+338,03-12-2024,P003,Office Chair,Furniture,S04,Delhi,83,220.82,15,15578.85,1,1,Tuesday,December,Q4,0,,0,Winter,Clear,0,235.78,102.24,Wholesale,Retail,7072.27
+339,04-12-2024,P003,Office Chair,Furniture,S02,Bengaluru,3,697.06,15,1777.5,1,0,Wednesday,December,Q4,0,,0,Winter,Clear,0,697.63,100.77,Wholesale,Wholesale,7742.56
+340,05-12-2024,P005,LED Desk Lamp,Home,S04,Delhi,12,4825.25,0,57903,1,1,Thursday,December,Q4,0,,0,Winter,Rainy,0,4924.19,108.3,Wholesale,Corporate,8509.21
+341,06-12-2024,P006,Running Shoes,Apparel,S02,Bengaluru,62,1164.27,10,64966.27,1,1,Friday,December,Q4,0,,0,Winter,Cloudy,0,1276.35,104.75,Online,Wholesale,5653.67
+342,07-12-2024,P006,Running Shoes,Apparel,S01,Chennai,65,3851.72,10,225325.62,1,1,Saturday,December,Q4,0,,1,Winter,Clear,1,4192.73,105.65,Wholesale,Wholesale,8991.73
+343,08-12-2024,P005,LED Desk Lamp,Home,S04,Delhi,51,4079.86,10,187265.57,1,1,Sunday,December,Q4,0,,1,Winter,Sunny,0,3790.46,105.05,Online,Corporate,7626.76
+344,09-12-2024,P003,Office Chair,Furniture,S03,Mumbai,23,3480.27,0,80046.21,0,1,Monday,December,Q4,0,,0,Winter,Rainy,1,3154.73,107.21,Online,Wholesale,434.02
+345,10-12-2024,P004,Notebook Pack,Stationery,S04,Delhi,78,1340.46,20,83644.7,1,1,Tuesday,December,Q4,0,,0,Winter,Sunny,0,1310.31,109.35,Wholesale,Corporate,9675.42
+346,11-12-2024,P001,Wireless Mouse,Electronics,S01,Chennai,41,3769.62,0,154554.42,1,1,Wednesday,December,Q4,0,,0,Winter,Cloudy,1,3804.76,104.05,Wholesale,Retail,3294.69
+347,12-12-2024,P003,Office Chair,Furniture,S01,Chennai,27,1097.49,0,29632.23,0,1,Thursday,December,Q4,0,,0,Winter,Sunny,0,1049.01,98.96,Online,Wholesale,423.01
+348,13-12-2024,P001,Wireless Mouse,Electronics,S03,Mumbai,26,2438.39,0,63398.14,0,1,Friday,December,Q4,0,,0,Winter,Cloudy,1,2219.35,108.99,Wholesale,Wholesale,150.58
+349,14-12-2024,P006,Running Shoes,Apparel,S01,Chennai,15,3963.35,0,59450.25,0,1,Saturday,December,Q4,0,,1,Winter,Clear,0,4190.26,97.39,Wholesale,Wholesale,201.71
+350,15-12-2024,P006,Running Shoes,Apparel,S02,Bengaluru,51,4440.3,15,192487.01,1,1,Sunday,December,Q4,0,,1,Winter,Cloudy,0,4256.98,109.25,Wholesale,Wholesale,5011.14
+351,16-12-2024,P001,Wireless Mouse,Electronics,S01,Chennai,53,3410.9,5,171738.82,1,1,Monday,December,Q4,0,,0,Winter,Clear,1,3236.14,95.6,In-Store,Corporate,9201.36
+352,17-12-2024,P002,Bluetooth Speaker,Electronics,S04,Delhi,97,1431.63,15,118037.89,1,1,Tuesday,December,Q4,0,,0,Winter,Sunny,1,1523.86,100.62,Wholesale,Corporate,5124.64
+353,18-12-2024,P005,LED Desk Lamp,Home,S02,Bengaluru,51,1737.5,0,88612.5,0,1,Wednesday,December,Q4,0,,0,Winter,Clear,1,1566.3,95.98,Wholesale,Wholesale,386.79
+354,19-12-2024,P007,Yoga Mat,Sports,S01,Chennai,82,1186.78,20,77852.77,1,1,Thursday,December,Q4,0,,0,Winter,Sunny,0,1073.74,105.75,Online,Retail,1195.86
+355,20-12-2024,P003,Office Chair,Furniture,S03,Mumbai,51,2878.8,10,132136.92,1,1,Friday,December,Q4,0,,0,Winter,Cloudy,0,2814.33,104.45,In-Store,Corporate,660.46
+356,21-12-2024,P002,Bluetooth Speaker,Electronics,S01,Chennai,49,3278.83,10,144596.4,1,1,Saturday,December,Q4,0,,1,Winter,Clear,0,3410.56,96.09,Wholesale,Retail,3253.45
+357,22-12-2024,P005,LED Desk Lamp,Home,S01,Chennai,67,1551.28,5,98738.97,1,1,Sunday,December,Q4,0,,1,Winter,Stormy,0,1543.21,103,Online,Wholesale,4214.43
+358,23-12-2024,P005,LED Desk Lamp,Home,S02,Bengaluru,88,1630.67,20,114799.17,1,1,Monday,December,Q4,0,,0,Winter,Sunny,1,1752.89,97.12,Online,Retail,5940.83
+359,24-12-2024,P007,Yoga Mat,Sports,S01,Chennai,73,1662.52,15,103159.37,1,1,Tuesday,December,Q4,0,,0,Winter,Rainy,0,1797.39,107.77,Online,Retail,2247.93
+360,25-12-2024,P005,LED Desk Lamp,Home,S02,Bengaluru,0,750.19,15,0,1,0,Wednesday,December,Q4,1,Christmas,0,Winter,Sunny,1,744.38,103.24,In-Store,Wholesale,1139.95
+361,26-12-2024,P002,Bluetooth Speaker,Electronics,S02,Bengaluru,40,3682.83,5,139947.54,1,1,Thursday,December,Q4,0,,0,Winter,Cloudy,0,3809,98.52,In-Store,Wholesale,1163.18
+362,27-12-2024,P004,Notebook Pack,Stationery,S03,Mumbai,12,2532.13,0,30385.56,0,0,Friday,December,Q4,0,,0,Winter,Rainy,1,2565.99,107.12,In-Store,Retail,2.42
+363,28-12-2024,P004,Notebook Pack,Stationery,S02,Bengaluru,60,3618.56,15,184546.56,1,1,Saturday,December,Q4,0,,1,Winter,Cloudy,0,3353.9,105.99,In-Store,Corporate,4730.9
+364,29-12-2024,P005,LED Desk Lamp,Home,S04,Delhi,47,2848.02,0,133856.94,0,1,Sunday,December,Q4,0,,1,Winter,Rainy,1,2675.11,106,Wholesale,Retail,363.71
+365,30-12-2024,P001,Wireless Mouse,Electronics,S01,Chennai,45,4100.68,10,166077.54,1,1,Monday,December,Q4,0,,0,Winter,Clear,0,4433.9,103.27,Wholesale,Wholesale,4984.99
+366,31-12-2024,P003,Office Chair,Furniture,S03,Mumbai,0,2083.99,20,0,1,0,Tuesday,December,Q4,0,,0,Winter,Cloudy,0,2069.28,102.66,In-Store,Corporate,5270.59
+367,01-01-2025,P004,Notebook Pack,Stationery,S02,Bengaluru,40,3834.59,0,153383.6,1,1,Wednesday,January,Q1,0,,0,Winter,Rainy,1,4178.72,104.89,Online,Wholesale,7454.04
+368,02-01-2025,P006,Running Shoes,Apparel,S01,Chennai,60,1250.33,5,71268.81,1,1,Thursday,January,Q1,0,,0,Winter,Sunny,0,1217.68,95.64,Online,Wholesale,9123.4
+369,03-01-2025,P006,Running Shoes,Apparel,S04,Delhi,49,2454.44,5,114254.18,1,1,Friday,January,Q1,0,,0,Winter,Sunny,0,2259.67,109.53,Wholesale,Corporate,8431.29
+370,04-01-2025,P005,LED Desk Lamp,Home,S02,Bengaluru,56,2007.97,5,106824,1,1,Saturday,January,Q1,0,,1,Winter,Clear,0,2014.66,100.64,Online,Wholesale,4355.5
+371,05-01-2025,P006,Running Shoes,Apparel,S04,Delhi,50,4004.76,10,180214.2,1,1,Sunday,January,Q1,0,,1,Winter,Clear,0,3956.62,98.45,Wholesale,Wholesale,3167.69
+372,06-01-2025,P003,Office Chair,Furniture,S02,Bengaluru,74,955.32,10,63624.31,1,1,Monday,January,Q1,0,,0,Winter,Rainy,0,1014.77,105.8,In-Store,Wholesale,5048.74
+373,07-01-2025,P004,Notebook Pack,Stationery,S02,Bengaluru,51,3306.84,5,160216.4,1,1,Tuesday,January,Q1,0,,0,Winter,Rainy,0,3060.74,103.89,Online,Wholesale,5370.11
+374,08-01-2025,P003,Office Chair,Furniture,S01,Chennai,8,998.44,0,7987.52,1,0,Wednesday,January,Q1,0,,0,Winter,Clear,0,1074.02,105.92,In-Store,Retail,2557.64
+375,09-01-2025,P008,Coffee Maker,Appliances,S04,Delhi,102,1018.72,20,83127.55,1,1,Thursday,January,Q1,0,,0,Winter,Clear,0,1078.75,107.31,Online,Wholesale,6766.66
+376,10-01-2025,P005,LED Desk Lamp,Home,S02,Bengaluru,0,3676.1,0,0,1,0,Friday,January,Q1,0,,0,Winter,Clear,0,3477.45,100.78,Online,Retail,2422.31
+377,11-01-2025,P007,Yoga Mat,Sports,S02,Bengaluru,7,3106.45,0,21745.15,1,0,Saturday,January,Q1,0,,1,Winter,Clear,0,3341.14,102.97,Online,Retail,5081.29
+378,12-01-2025,P003,Office Chair,Furniture,S01,Chennai,61,4505.45,20,219865.96,1,1,Sunday,January,Q1,0,,1,Winter,Clear,0,4388.65,95.65,Wholesale,Corporate,2680.12
+379,13-01-2025,P008,Coffee Maker,Appliances,S04,Delhi,18,1882.49,20,27107.86,1,0,Monday,January,Q1,0,,0,Winter,Sunny,0,1744.65,102.16,Online,Retail,3191.03
+380,14-01-2025,P007,Yoga Mat,Sports,S03,Mumbai,82,1107.3,15,77178.81,1,1,Tuesday,January,Q1,0,,0,Winter,Clear,1,1022.66,95.11,Wholesale,Retail,7033.78
+381,15-01-2025,P006,Running Shoes,Apparel,S04,Delhi,0,1938.89,0,0,1,0,Wednesday,January,Q1,0,,0,Winter,Cloudy,0,2076.54,101.35,In-Store,Wholesale,3117.83
+382,16-01-2025,P007,Yoga Mat,Sports,S02,Bengaluru,0,2183.5,20,0,1,0,Thursday,January,Q1,0,,0,Winter,Stormy,0,2126.82,103.32,In-Store,Corporate,5987.69
+383,17-01-2025,P007,Yoga Mat,Sports,S02,Bengaluru,27,4303.99,15,98776.57,1,1,Friday,January,Q1,0,,0,Winter,Rainy,0,4547.69,109.24,Online,Retail,5329.26
+384,18-01-2025,P006,Running Shoes,Apparel,S01,Chennai,84,971.54,15,69367.96,1,1,Saturday,January,Q1,0,,1,Winter,Sunny,0,966.03,104,Online,Retail,2999.37
+385,19-01-2025,P006,Running Shoes,Apparel,S01,Chennai,72,3123.34,15,191148.41,1,1,Sunday,January,Q1,0,,1,Winter,Stormy,1,3220.9,99.3,Wholesale,Retail,9484.3
+386,20-01-2025,P003,Office Chair,Furniture,S04,Delhi,40,2307.07,0,92282.8,0,1,Monday,January,Q1,0,,0,Winter,Sunny,1,2311.94,105.48,Wholesale,Retail,337.01
+387,21-01-2025,P006,Running Shoes,Apparel,S02,Bengaluru,19,3344.09,0,63537.71,0,1,Tuesday,January,Q1,0,,0,Winter,Stormy,0,3457.56,101.08,Online,Wholesale,7.68
+388,22-01-2025,P002,Bluetooth Speaker,Electronics,S01,Chennai,15,2838.04,15,36185.01,1,0,Wednesday,January,Q1,0,,0,Winter,Clear,0,2751.47,107.23,Online,Wholesale,9649.04
+389,23-01-2025,P008,Coffee Maker,Appliances,S04,Delhi,28,2959.55,0,82867.4,0,1,Thursday,January,Q1,0,,0,Winter,Clear,0,2994.25,102.55,In-Store,Retail,401.47
+390,24-01-2025,P005,LED Desk Lamp,Home,S03,Mumbai,0,3532.12,5,0,1,0,Friday,January,Q1,0,,0,Winter,Stormy,0,3714.01,109.42,In-Store,Wholesale,4876.84
+391,25-01-2025,P001,Wireless Mouse,Electronics,S04,Delhi,60,758.09,0,45485.4,1,1,Saturday,January,Q1,0,,1,Winter,Rainy,0,744.81,100.3,Wholesale,Retail,7157.78
+392,26-01-2025,P005,LED Desk Lamp,Home,S02,Bengaluru,83,1578.99,5,124503.36,1,1,Sunday,January,Q1,0,,1,Winter,Sunny,1,1715.22,102.15,In-Store,Retail,8996
+393,27-01-2025,P005,LED Desk Lamp,Home,S02,Bengaluru,29,4746.17,15,116993.09,1,1,Monday,January,Q1,0,,0,Winter,Stormy,0,4494.49,98.63,In-Store,Retail,2677.47
+394,28-01-2025,P004,Notebook Pack,Stationery,S03,Mumbai,67,948.78,0,63568.26,0,1,Tuesday,January,Q1,0,,0,Winter,Stormy,1,855.16,107.86,Online,Corporate,185.6
+395,29-01-2025,P006,Running Shoes,Apparel,S04,Delhi,44,4510.98,10,178634.81,1,1,Wednesday,January,Q1,0,,0,Winter,Stormy,0,4948,108.74,In-Store,Corporate,2609.88
+396,30-01-2025,P003,Office Chair,Furniture,S01,Chennai,42,2723.53,5,108668.85,1,1,Thursday,January,Q1,0,,0,Winter,Clear,0,2724.88,100.91,Wholesale,Retail,4843.36
+397,31-01-2025,P002,Bluetooth Speaker,Electronics,S04,Delhi,31,1715.13,0,53169.03,0,1,Friday,January,Q1,0,,0,Winter,Stormy,1,1578.18,100.42,In-Store,Retail,274.28
+398,01-02-2025,P004,Notebook Pack,Stationery,S03,Mumbai,76,2462.46,10,168432.26,1,1,Saturday,February,Q1,0,,1,Winter,Cloudy,0,2461.85,98.16,Wholesale,Corporate,3968.24
+399,02-02-2025,P007,Yoga Mat,Sports,S03,Mumbai,65,2363.5,10,138264.75,1,1,Sunday,February,Q1,0,,1,Winter,Clear,0,2512.02,105.81,Online,Wholesale,4606.08
+400,03-02-2025,P007,Yoga Mat,Sports,S02,Bengaluru,88,900.05,15,67323.74,1,1,Monday,February,Q1,0,,0,Winter,Stormy,0,841.84,102.49,Wholesale,Wholesale,5572.83
+401,04-02-2025,P006,Running Shoes,Apparel,S04,Delhi,0,1640.16,10,0,1,0,Tuesday,February,Q1,0,,0,Winter,Sunny,0,1508.61,97.45,Online,Corporate,5027.12
+402,05-02-2025,P002,Bluetooth Speaker,Electronics,S04,Delhi,19,3774.05,0,71706.95,0,1,Wednesday,February,Q1,0,,0,Winter,Clear,1,4100.01,98.87,Online,Corporate,60.62
+403,06-02-2025,P004,Notebook Pack,Stationery,S02,Bengaluru,1,4900.99,0,4900.99,0,1,Thursday,February,Q1,0,,0,Winter,Clear,0,5170.29,101.7,Online,Corporate,306.83
+404,07-02-2025,P008,Coffee Maker,Appliances,S02,Bengaluru,56,4367.64,15,207899.66,1,1,Friday,February,Q1,0,,0,Winter,Stormy,1,4430.22,107.73,Online,Retail,2039
+405,08-02-2025,P004,Notebook Pack,Stationery,S03,Mumbai,0,1721.02,0,0,0,0,Saturday,February,Q1,0,,1,Winter,Stormy,0,1854.47,106.71,In-Store,Wholesale,293.46
+406,09-02-2025,P008,Coffee Maker,Appliances,S04,Delhi,100,1003.13,20,80250.4,1,1,Sunday,February,Q1,0,,1,Winter,Rainy,0,1035.64,109.11,Wholesale,Wholesale,1260.62
+407,10-02-2025,P003,Office Chair,Furniture,S04,Delhi,0,694.44,0,0,1,0,Monday,February,Q1,0,,0,Winter,Sunny,0,732.07,102.86,Online,Retail,2993.3
+408,11-02-2025,P003,Office Chair,Furniture,S01,Chennai,38,3343.2,5,120689.52,1,1,Tuesday,February,Q1,0,,0,Winter,Rainy,0,3502.06,101.65,Online,Retail,5504.05
+409,12-02-2025,P003,Office Chair,Furniture,S01,Chennai,59,368.74,0,21755.66,0,1,Wednesday,February,Q1,0,,0,Winter,Stormy,1,400.81,103.23,Online,Wholesale,269.64
+410,13-02-2025,P008,Coffee Maker,Appliances,S04,Delhi,4,2712.61,15,9222.87,1,0,Thursday,February,Q1,0,,0,Winter,Cloudy,0,2702.66,98.41,Online,Corporate,3424.75
+411,14-02-2025,P007,Yoga Mat,Sports,S03,Mumbai,6,947.44,0,5684.64,0,0,Friday,February,Q1,0,,0,Winter,Rainy,0,907.03,103.03,Wholesale,Corporate,473.48
+412,15-02-2025,P008,Coffee Maker,Appliances,S03,Mumbai,71,243.84,5,16447.01,1,1,Saturday,February,Q1,0,,1,Winter,Clear,0,258.31,103.22,Online,Corporate,8880.54
+413,16-02-2025,P007,Yoga Mat,Sports,S04,Delhi,71,1399.5,15,84459.82,1,1,Sunday,February,Q1,0,,1,Winter,Stormy,0,1333.16,101.33,Online,Wholesale,7763.11
+414,17-02-2025,P005,LED Desk Lamp,Home,S03,Mumbai,57,3312.59,10,169935.87,1,1,Monday,February,Q1,0,,0,Winter,Stormy,0,3546.78,97.74,In-Store,Retail,6550.48
+415,18-02-2025,P008,Coffee Maker,Appliances,S03,Mumbai,40,3562.27,5,135366.26,1,1,Tuesday,February,Q1,0,,0,Winter,Cloudy,0,3314.44,109.55,Online,Retail,9737.16
+416,19-02-2025,P005,LED Desk Lamp,Home,S03,Mumbai,59,800.19,5,44850.65,1,1,Wednesday,February,Q1,0,,0,Winter,Rainy,0,744.29,102.4,In-Store,Corporate,3459.98
+417,20-02-2025,P008,Coffee Maker,Appliances,S03,Mumbai,83,2425.69,20,161065.82,1,1,Thursday,February,Q1,0,,0,Winter,Cloudy,0,2592.36,109.27,Online,Corporate,7868.7
+418,21-02-2025,P002,Bluetooth Speaker,Electronics,S04,Delhi,85,1071.7,20,72875.6,1,1,Friday,February,Q1,0,,0,Winter,Stormy,0,990.67,106.52,Online,Corporate,7826.64
+419,22-02-2025,P008,Coffee Maker,Appliances,S02,Bengaluru,44,3740.57,0,164585.08,0,1,Saturday,February,Q1,0,,1,Winter,Sunny,1,3864.76,98.13,In-Store,Wholesale,480.61
+420,23-02-2025,P006,Running Shoes,Apparel,S02,Bengaluru,28,3219.99,0,90159.72,0,1,Sunday,February,Q1,0,,1,Winter,Stormy,0,3025.97,108.31,Wholesale,Retail,486.64
+421,24-02-2025,P004,Notebook Pack,Stationery,S04,Delhi,16,1757.66,0,28122.56,0,0,Monday,February,Q1,0,,0,Winter,Sunny,0,1859.3,95.13,Online,Wholesale,391.74
+422,25-02-2025,P008,Coffee Maker,Appliances,S02,Bengaluru,44,1982.71,0,87239.24,0,1,Tuesday,February,Q1,0,,0,Winter,Stormy,0,2056.44,100.08,Wholesale,Retail,29.89
+423,26-02-2025,P003,Office Chair,Furniture,S01,Chennai,0,803.97,0,0,0,0,Wednesday,February,Q1,0,,0,Winter,Cloudy,0,841.47,95.32,In-Store,Corporate,362.2
+424,27-02-2025,P005,LED Desk Lamp,Home,S01,Chennai,8,2529.45,5,19223.82,1,0,Thursday,February,Q1,0,,0,Winter,Cloudy,1,2629.13,97.85,Online,Wholesale,3802.81
+425,28-02-2025,P008,Coffee Maker,Appliances,S03,Mumbai,5,4364.78,10,19641.51,1,0,Friday,February,Q1,0,,0,Winter,Rainy,0,4391.96,101.74,In-Store,Wholesale,3987.57
+426,01-03-2025,P001,Wireless Mouse,Electronics,S04,Delhi,11,3721.56,0,40937.16,0,0,Saturday,March,Q1,0,,1,Spring,Rainy,0,3886.06,104.87,Wholesale,Corporate,94.93
+427,02-03-2025,P008,Coffee Maker,Appliances,S02,Bengaluru,36,3142.59,0,113133.24,1,1,Sunday,March,Q1,0,,1,Spring,Sunny,0,3157.17,96,Online,Retail,8798.18
+428,03-03-2025,P004,Notebook Pack,Stationery,S01,Chennai,5,2529.78,0,12648.9,0,0,Monday,March,Q1,0,,0,Spring,Stormy,0,2542.84,105.52,In-Store,Retail,183.18
+429,04-03-2025,P002,Bluetooth Speaker,Electronics,S01,Chennai,27,4665.01,0,125955.27,1,1,Tuesday,March,Q1,0,,0,Spring,Stormy,0,4535.25,106.15,In-Store,Corporate,8045.37
+430,05-03-2025,P001,Wireless Mouse,Electronics,S03,Mumbai,46,2739.3,15,107106.63,1,1,Wednesday,March,Q1,0,,0,Spring,Cloudy,0,2982.88,109.41,Online,Retail,7389.13
+431,06-03-2025,P007,Yoga Mat,Sports,S02,Bengaluru,67,1126.97,15,64180.94,1,1,Thursday,March,Q1,0,,0,Spring,Clear,0,1140.14,103.37,Wholesale,Retail,7779.69
+432,07-03-2025,P006,Running Shoes,Apparel,S04,Delhi,20,3572.24,5,67872.56,1,1,Friday,March,Q1,0,,0,Spring,Rainy,0,3607.94,102.57,Wholesale,Retail,5572.05
+433,08-03-2025,P008,Coffee Maker,Appliances,S03,Mumbai,43,4531.93,10,175385.69,1,1,Saturday,March,Q1,0,,1,Spring,Cloudy,0,4771.38,101.46,Wholesale,Corporate,6279.93
+434,09-03-2025,P004,Notebook Pack,Stationery,S04,Delhi,64,3875.4,15,210821.76,1,1,Sunday,March,Q1,0,,1,Spring,Cloudy,0,3834.71,100.96,Wholesale,Retail,9838.09
+435,10-03-2025,P001,Wireless Mouse,Electronics,S02,Bengaluru,12,4968.38,0,59620.56,0,1,Monday,March,Q1,0,,0,Spring,Rainy,0,5321.85,95.33,Wholesale,Corporate,459.56
+436,11-03-2025,P003,Office Chair,Furniture,S01,Chennai,47,381.13,0,17913.11,0,1,Tuesday,March,Q1,0,,0,Spring,Cloudy,0,410.83,98.75,In-Store,Corporate,45.95
+437,12-03-2025,P007,Yoga Mat,Sports,S02,Bengaluru,63,3724.48,15,199445.9,1,1,Wednesday,March,Q1,0,,0,Spring,Stormy,0,3715.75,108.49,Wholesale,Wholesale,8285.4
+438,13-03-2025,P002,Bluetooth Speaker,Electronics,S03,Mumbai,0,379.38,20,0,1,0,Thursday,March,Q1,0,,0,Spring,Stormy,0,400.63,108.83,In-Store,Corporate,8858.03
+439,14-03-2025,P007,Yoga Mat,Sports,S04,Delhi,0,4665.18,0,0,0,0,Friday,March,Q1,0,,0,Spring,Sunny,0,4249.17,102.87,In-Store,Wholesale,282.46
+440,15-03-2025,P006,Running Shoes,Apparel,S02,Bengaluru,100,935.35,15,79504.75,1,1,Saturday,March,Q1,0,,1,Spring,Stormy,1,949.43,96.35,In-Store,Corporate,7970.5
+441,16-03-2025,P003,Office Chair,Furniture,S02,Bengaluru,3,1813.61,5,5168.79,1,0,Sunday,March,Q1,0,,1,Spring,Sunny,1,1777.04,96.28,Wholesale,Corporate,7851.34
+442,17-03-2025,P003,Office Chair,Furniture,S02,Bengaluru,40,2508.43,0,100337.2,1,1,Monday,March,Q1,0,,0,Spring,Clear,0,2539.12,109.96,Wholesale,Retail,2801.99
+443,18-03-2025,P005,LED Desk Lamp,Home,S04,Delhi,46,1752.38,10,72548.53,1,1,Tuesday,March,Q1,0,,0,Spring,Sunny,0,1725.58,100.22,In-Store,Corporate,6141.83
+444,19-03-2025,P001,Wireless Mouse,Electronics,S03,Mumbai,0,1012.43,0,0,1,0,Wednesday,March,Q1,0,,0,Spring,Rainy,0,920.27,107.27,Online,Wholesale,4051.3
+445,20-03-2025,P002,Bluetooth Speaker,Electronics,S01,Chennai,2,3749.99,0,7499.98,0,1,Thursday,March,Q1,0,,0,Spring,Sunny,0,3895.34,96.67,In-Store,Corporate,11.37
+446,21-03-2025,P004,Notebook Pack,Stationery,S02,Bengaluru,74,1178.25,10,78471.45,1,1,Friday,March,Q1,0,,0,Spring,Clear,0,1207.24,109.88,Wholesale,Wholesale,6848.48
+447,22-03-2025,P007,Yoga Mat,Sports,S01,Chennai,49,1426.19,0,69883.31,0,1,Saturday,March,Q1,0,,1,Spring,Clear,0,1298.71,104.82,Online,Retail,194.32
+448,23-03-2025,P005,LED Desk Lamp,Home,S03,Mumbai,9,4348.55,0,39136.95,0,1,Sunday,March,Q1,0,,1,Spring,Rainy,0,4355.98,105.65,In-Store,Corporate,433.39
+449,24-03-2025,P002,Bluetooth Speaker,Electronics,S02,Bengaluru,0,1154.6,5,0,1,0,Monday,March,Q1,0,,0,Spring,Sunny,0,1096.27,102.94,In-Store,Corporate,4237.3
+450,25-03-2025,P003,Office Chair,Furniture,S01,Chennai,35,1864.54,0,65258.9,0,1,Tuesday,March,Q1,0,,0,Spring,Rainy,1,1780.96,95.93,In-Store,Corporate,445.2
+451,26-03-2025,P001,Wireless Mouse,Electronics,S03,Mumbai,52,1282.8,0,66705.6,1,1,Wednesday,March,Q1,0,,0,Spring,Sunny,0,1288.12,105.17,Wholesale,Wholesale,2660.57
+452,27-03-2025,P004,Notebook Pack,Stationery,S02,Bengaluru,35,2247.03,0,78646.05,0,1,Thursday,March,Q1,0,,0,Spring,Clear,0,2115.24,97.08,Wholesale,Wholesale,400.05
+453,28-03-2025,P003,Office Chair,Furniture,S03,Mumbai,37,3504.95,10,116714.83,1,1,Friday,March,Q1,0,,0,Spring,Stormy,0,3614.47,103.47,Online,Corporate,1144.23
+454,29-03-2025,P002,Bluetooth Speaker,Electronics,S02,Bengaluru,47,1724.47,0,81050.09,0,1,Saturday,March,Q1,0,,1,Spring,Stormy,0,1656.65,106.18,Wholesale,Wholesale,136.9
+455,30-03-2025,P004,Notebook Pack,Stationery,S01,Chennai,0,831.42,0,0,0,0,Sunday,March,Q1,0,,1,Spring,Clear,1,786.67,98.48,Wholesale,Retail,179.63
+456,31-03-2025,P008,Coffee Maker,Appliances,S02,Bengaluru,48,2611.16,10,112802.11,1,1,Monday,March,Q1,0,,0,Spring,Cloudy,0,2795.05,102.37,Online,Retail,2335.97
+457,01-04-2025,P001,Wireless Mouse,Electronics,S04,Delhi,10,3869.79,0,38697.9,0,1,Tuesday,April,Q2,0,,0,Spring,Rainy,0,4069.3,95.99,In-Store,Wholesale,244.97
+458,02-04-2025,P006,Running Shoes,Apparel,S04,Delhi,32,4460.42,5,135596.77,1,1,Wednesday,April,Q2,0,,0,Spring,Sunny,1,4670.36,100.71,In-Store,Corporate,6309.3
+459,03-04-2025,P001,Wireless Mouse,Electronics,S01,Chennai,79,2367.73,20,149640.54,1,1,Thursday,April,Q2,0,,0,Spring,Rainy,1,2385.66,109.76,Online,Wholesale,4180.28
+460,04-04-2025,P001,Wireless Mouse,Electronics,S02,Bengaluru,47,1597.66,5,71335.52,1,1,Friday,April,Q2,0,,0,Spring,Cloudy,0,1491.09,99.42,Online,Wholesale,5411.21
+461,05-04-2025,P003,Office Chair,Furniture,S04,Delhi,56,4183.49,5,222561.67,1,1,Saturday,April,Q2,0,,1,Spring,Clear,0,3915.56,103.78,Wholesale,Wholesale,1785.41
+462,06-04-2025,P007,Yoga Mat,Sports,S03,Mumbai,0,2364.25,0,0,1,0,Sunday,April,Q2,0,,1,Spring,Rainy,0,2170.47,99.86,Wholesale,Wholesale,8066.62
+463,07-04-2025,P002,Bluetooth Speaker,Electronics,S01,Chennai,71,747.99,5,50451.93,1,1,Monday,April,Q2,0,,0,Spring,Sunny,1,779,105.9,Wholesale,Wholesale,9522.66
+464,08-04-2025,P007,Yoga Mat,Sports,S04,Delhi,2,410.75,0,821.5,0,0,Tuesday,April,Q2,0,,0,Spring,Rainy,0,441.05,97.68,Wholesale,Retail,209.79
+465,09-04-2025,P005,LED Desk Lamp,Home,S04,Delhi,33,1586.15,0,52342.95,0,1,Wednesday,April,Q2,0,,0,Spring,Rainy,0,1625.03,98.8,In-Store,Corporate,427.71
+466,10-04-2025,P001,Wireless Mouse,Electronics,S04,Delhi,65,1341.82,10,78496.47,1,1,Thursday,April,Q2,0,,0,Spring,Stormy,0,1326.22,104.02,Online,Retail,8880.59
+467,11-04-2025,P005,LED Desk Lamp,Home,S02,Bengaluru,51,434.81,0,22175.31,0,1,Friday,April,Q2,0,,0,Spring,Sunny,0,465.58,105,Wholesale,Corporate,165.56
+468,12-04-2025,P002,Bluetooth Speaker,Electronics,S01,Chennai,71,722.66,0,51308.86,0,1,Saturday,April,Q2,0,,1,Spring,Clear,1,733.11,103.43,In-Store,Wholesale,289.48
+469,13-04-2025,P001,Wireless Mouse,Electronics,S01,Chennai,17,3888.86,0,66110.62,0,1,Sunday,April,Q2,0,,1,Spring,Sunny,0,4155.88,95.97,In-Store,Retail,61.01
+470,14-04-2025,P005,LED Desk Lamp,Home,S03,Mumbai,60,2729.85,10,147411.9,1,1,Monday,April,Q2,0,,0,Spring,Rainy,1,2488.63,103.57,Wholesale,Wholesale,9878.3
+471,15-04-2025,P008,Coffee Maker,Appliances,S03,Mumbai,82,2249.86,20,147590.82,1,1,Tuesday,April,Q2,0,,0,Spring,Cloudy,1,2283.67,104.35,Online,Wholesale,5845.03
+472,16-04-2025,P008,Coffee Maker,Appliances,S04,Delhi,21,4078.31,10,77080.06,1,1,Wednesday,April,Q2,0,,0,Spring,Cloudy,0,3671.77,95.36,Wholesale,Retail,7505.95
+473,17-04-2025,P004,Notebook Pack,Stationery,S04,Delhi,0,2187.4,0,0,0,0,Thursday,April,Q2,0,,0,Spring,Rainy,0,2248.92,105.35,In-Store,Retail,153.89
+474,18-04-2025,P006,Running Shoes,Apparel,S01,Chennai,65,746.42,0,48517.3,0,1,Friday,April,Q2,0,,0,Spring,Clear,1,815.11,107.48,Online,Corporate,416.91
+475,19-04-2025,P008,Coffee Maker,Appliances,S04,Delhi,70,4026.82,15,239595.79,1,1,Saturday,April,Q2,0,,1,Spring,Stormy,0,4129.26,108.38,Wholesale,Corporate,4893.47
+476,20-04-2025,P007,Yoga Mat,Sports,S01,Chennai,0,4208.51,0,0,0,0,Sunday,April,Q2,0,,1,Spring,Clear,0,3962.95,105.28,In-Store,Retail,484.81
+477,21-04-2025,P005,LED Desk Lamp,Home,S01,Chennai,5,1827.93,5,8682.67,1,0,Monday,April,Q2,0,,0,Spring,Rainy,1,1866.57,97.81,Online,Corporate,7200.03
+478,22-04-2025,P006,Running Shoes,Apparel,S01,Chennai,52,1503.19,0,78165.88,1,1,Tuesday,April,Q2,0,,0,Spring,Cloudy,0,1602.24,99.54,Wholesale,Corporate,2162.62
+479,23-04-2025,P006,Running Shoes,Apparel,S01,Chennai,25,3933.39,0,98334.75,1,0,Wednesday,April,Q2,0,,0,Spring,Sunny,0,4251.96,97.31,In-Store,Corporate,7458.19
+480,24-04-2025,P005,LED Desk Lamp,Home,S03,Mumbai,95,887.82,20,67474.32,1,1,Thursday,April,Q2,0,,0,Spring,Clear,0,835.47,95.55,In-Store,Wholesale,8715.7
+481,25-04-2025,P002,Bluetooth Speaker,Electronics,S01,Chennai,32,1692.71,0,54166.72,0,1,Friday,April,Q2,0,,0,Spring,Stormy,0,1558.34,106.49,Wholesale,Corporate,11.24
+482,26-04-2025,P005,LED Desk Lamp,Home,S02,Bengaluru,35,1740.23,0,60908.05,0,1,Saturday,April,Q2,0,,1,Spring,Clear,0,1835.17,105.07,In-Store,Retail,78.75
+483,27-04-2025,P002,Bluetooth Speaker,Electronics,S01,Chennai,0,4799.83,10,0,1,0,Sunday,April,Q2,0,,1,Spring,Sunny,0,4840.66,103.24,In-Store,Retail,9461.14
+484,28-04-2025,P005,LED Desk Lamp,Home,S02,Bengaluru,2,1022.12,0,2044.24,0,0,Monday,April,Q2,0,,0,Spring,Stormy,0,946.5,102.06,Wholesale,Retail,52.96
+485,29-04-2025,P001,Wireless Mouse,Electronics,S01,Chennai,0,2247.04,0,0,1,0,Tuesday,April,Q2,0,,0,Spring,Cloudy,0,2171.69,97.97,Wholesale,Wholesale,1246.18
+486,30-04-2025,P008,Coffee Maker,Appliances,S02,Bengaluru,77,646,20,39793.6,1,1,Wednesday,April,Q2,0,,0,Spring,Sunny,0,621.5,104.67,In-Store,Corporate,2701.1
+487,01-05-2025,P004,Notebook Pack,Stationery,S02,Bengaluru,31,4333.26,10,120897.95,1,1,Thursday,May,Q2,0,,0,Spring,Cloudy,0,4058.84,108.76,In-Store,Corporate,4806.19
+488,02-05-2025,P001,Wireless Mouse,Electronics,S01,Chennai,32,2481.6,0,79411.2,1,1,Friday,May,Q2,0,,0,Spring,Rainy,0,2614.58,104.07,Online,Wholesale,1477.86
+489,03-05-2025,P002,Bluetooth Speaker,Electronics,S03,Mumbai,13,2869.52,0,37303.76,0,0,Saturday,May,Q2,0,,1,Spring,Stormy,0,2921.48,98.58,Online,Wholesale,79.51
+490,04-05-2025,P008,Coffee Maker,Appliances,S04,Delhi,77,517.09,0,39815.93,1,1,Sunday,May,Q2,0,,1,Spring,Clear,0,521.69,98.54,Wholesale,Wholesale,1240
+491,05-05-2025,P008,Coffee Maker,Appliances,S01,Chennai,42,3042.38,5,121390.96,1,1,Monday,May,Q2,0,,0,Spring,Clear,0,3238.32,97.64,In-Store,Retail,6183.46
+492,06-05-2025,P007,Yoga Mat,Sports,S03,Mumbai,74,2572.62,15,161817.8,1,1,Tuesday,May,Q2,0,,0,Spring,Sunny,0,2735.74,108.31,Wholesale,Retail,7692.24
+493,07-05-2025,P003,Office Chair,Furniture,S04,Delhi,1,2750.03,5,2612.53,1,0,Wednesday,May,Q2,0,,0,Spring,Clear,0,2582.64,105.22,In-Store,Corporate,5917.63
+494,08-05-2025,P005,LED Desk Lamp,Home,S04,Delhi,0,3645.4,0,0,0,0,Thursday,May,Q2,0,,0,Spring,Sunny,1,4000.04,101.06,Online,Corporate,31.21
+495,09-05-2025,P001,Wireless Mouse,Electronics,S01,Chennai,71,3576.1,20,203122.48,1,1,Friday,May,Q2,0,,0,Spring,Sunny,0,3837.64,98.53,Wholesale,Wholesale,4245.55
+496,10-05-2025,P006,Running Shoes,Apparel,S04,Delhi,4,2148.96,5,8166.05,1,0,Saturday,May,Q2,0,,1,Spring,Rainy,0,2138.16,97.82,In-Store,Corporate,8479.65
+497,11-05-2025,P003,Office Chair,Furniture,S03,Mumbai,39,4987.79,15,165345.24,1,1,Sunday,May,Q2,0,,1,Spring,Rainy,0,4560.58,95.24,Wholesale,Corporate,6750.3
+498,12-05-2025,P003,Office Chair,Furniture,S01,Chennai,97,858.66,20,66632.02,1,1,Monday,May,Q2,0,,0,Spring,Stormy,1,932.56,104.35,In-Store,Wholesale,4529.18
+499,13-05-2025,P008,Coffee Maker,Appliances,S04,Delhi,0,1905.47,0,0,1,0,Tuesday,May,Q2,0,,0,Spring,Sunny,1,1904.77,105.96,Wholesale,Wholesale,3057.88
+500,14-05-2025,P006,Running Shoes,Apparel,S01,Chennai,20,4895.52,10,88119.36,1,1,Wednesday,May,Q2,0,,0,Spring,Cloudy,0,4974.11,109.43,Online,Retail,7436.76
+501,15-05-2025,P005,LED Desk Lamp,Home,S04,Delhi,7,2681.36,10,16892.57,1,0,Thursday,May,Q2,0,,0,Spring,Sunny,0,2666.59,106.13,Wholesale,Retail,6998.7
+502,16-05-2025,P005,LED Desk Lamp,Home,S01,Chennai,50,4537.21,10,204174.45,1,1,Friday,May,Q2,0,,0,Spring,Stormy,0,4548.7,102.04,Wholesale,Corporate,4499.65
+503,17-05-2025,P005,LED Desk Lamp,Home,S03,Mumbai,0,1004.04,15,0,1,0,Saturday,May,Q2,0,,1,Spring,Cloudy,1,955.94,104.44,Wholesale,Retail,5942.17
+504,18-05-2025,P005,LED Desk Lamp,Home,S01,Chennai,5,1576.72,0,7883.6,0,0,Sunday,May,Q2,0,,1,Spring,Sunny,0,1498.53,104.24,In-Store,Corporate,7.1
+505,19-05-2025,P002,Bluetooth Speaker,Electronics,S02,Bengaluru,37,4568.63,15,143683.41,1,1,Monday,May,Q2,0,,0,Spring,Stormy,0,4849.91,98.92,Wholesale,Retail,5106.73
+506,20-05-2025,P001,Wireless Mouse,Electronics,S03,Mumbai,0,4923.54,0,0,0,1,Tuesday,May,Q2,0,,0,Spring,Stormy,0,4665.49,101.6,Wholesale,Retail,105.43
+507,21-05-2025,P006,Running Shoes,Apparel,S01,Chennai,57,3282.85,20,149697.96,1,1,Wednesday,May,Q2,0,,0,Spring,Sunny,0,3259.22,102.14,In-Store,Wholesale,9508.39
+508,22-05-2025,P004,Notebook Pack,Stationery,S04,Delhi,31,3480.85,5,102511.03,1,1,Thursday,May,Q2,0,,0,Spring,Cloudy,0,3502.04,101.52,In-Store,Corporate,4129.04
+509,23-05-2025,P006,Running Shoes,Apparel,S01,Chennai,86,667.35,10,51652.89,1,1,Friday,May,Q2,0,,0,Spring,Stormy,1,723.15,107.88,In-Store,Corporate,3037.33
+510,24-05-2025,P002,Bluetooth Speaker,Electronics,S03,Mumbai,54,3340.85,5,171385.6,1,1,Saturday,May,Q2,0,,1,Spring,Rainy,1,3521.59,102.8,Wholesale,Wholesale,9935.54
+511,25-05-2025,P006,Running Shoes,Apparel,S01,Chennai,73,3429.45,20,200279.88,1,1,Sunday,May,Q2,0,,1,Spring,Sunny,0,3153.52,96.56,In-Store,Corporate,2584.46
+512,26-05-2025,P005,LED Desk Lamp,Home,S03,Mumbai,38,1126.78,0,42817.64,0,1,Monday,May,Q2,0,,0,Spring,Clear,0,1228.3,104.57,Wholesale,Retail,43.19
+513,27-05-2025,P003,Office Chair,Furniture,S04,Delhi,0,3350.69,15,0,1,0,Tuesday,May,Q2,0,,0,Spring,Rainy,0,3481.8,98.8,In-Store,Wholesale,9393.73
+514,28-05-2025,P008,Coffee Maker,Appliances,S03,Mumbai,41,3892.92,15,135668.26,1,1,Wednesday,May,Q2,0,,0,Spring,Cloudy,0,4111.49,99.16,Online,Corporate,4191.61
+515,29-05-2025,P001,Wireless Mouse,Electronics,S03,Mumbai,0,4786.91,0,0,0,1,Thursday,May,Q2,0,,0,Spring,Sunny,0,5245.9,98.01,In-Store,Retail,322.74
+516,30-05-2025,P002,Bluetooth Speaker,Electronics,S02,Bengaluru,51,2795.03,5,135419.2,1,1,Friday,May,Q2,0,,0,Spring,Clear,0,3025.68,105.73,Online,Retail,1192.74
+517,31-05-2025,P005,LED Desk Lamp,Home,S04,Delhi,84,290.07,5,23147.59,1,1,Saturday,May,Q2,0,,1,Spring,Sunny,0,299.62,99,Wholesale,Corporate,9093.87
+518,01-06-2025,P001,Wireless Mouse,Electronics,S04,Delhi,50,2495.07,5,118515.83,1,1,Sunday,June,Q2,0,,1,Summer,Clear,0,2247.21,109.31,In-Store,Retail,5888.82
+519,02-06-2025,P006,Running Shoes,Apparel,S03,Mumbai,39,3472.81,5,128667.61,1,1,Monday,June,Q2,0,,0,Summer,Sunny,0,3496.86,109.41,Online,Corporate,7724.3
+520,03-06-2025,P005,LED Desk Lamp,Home,S02,Bengaluru,61,1047.77,0,63913.97,1,1,Tuesday,June,Q2,0,,0,Summer,Cloudy,0,1130.85,104.46,In-Store,Corporate,1306.19
+521,04-06-2025,P008,Coffee Maker,Appliances,S02,Bengaluru,0,871.73,0,0,0,0,Wednesday,June,Q2,0,,0,Summer,Rainy,0,852.34,106.89,Wholesale,Corporate,249.84
+522,05-06-2025,P008,Coffee Maker,Appliances,S01,Chennai,51,377.8,0,19267.8,0,1,Thursday,June,Q2,0,,0,Summer,Stormy,0,356.01,104.81,Wholesale,Corporate,470.04
+523,06-06-2025,P003,Office Chair,Furniture,S02,Bengaluru,0,4639.12,0,0,0,1,Friday,June,Q2,0,,0,Summer,Sunny,0,5016.91,104.28,Online,Wholesale,324.39
+524,07-06-2025,P001,Wireless Mouse,Electronics,S02,Bengaluru,32,3236.77,0,103576.64,0,1,Saturday,June,Q2,0,,1,Summer,Clear,0,3453.86,95.96,Online,Retail,248.57
+525,08-06-2025,P004,Notebook Pack,Stationery,S01,Chennai,36,4061.38,5,138899.2,1,1,Sunday,June,Q2,0,,1,Summer,Stormy,0,3753.37,105.26,Wholesale,Retail,3555.1
+526,09-06-2025,P004,Notebook Pack,Stationery,S01,Chennai,5,3046.81,0,15234.05,0,1,Monday,June,Q2,0,,0,Summer,Cloudy,0,3203.75,97.52,In-Store,Wholesale,82.5
+527,10-06-2025,P004,Notebook Pack,Stationery,S01,Chennai,0,840.18,20,0,1,0,Tuesday,June,Q2,0,,0,Summer,Stormy,0,758.79,102.3,Online,Retail,2204.42
+528,11-06-2025,P002,Bluetooth Speaker,Electronics,S03,Mumbai,73,2197.87,20,128355.61,1,1,Wednesday,June,Q2,0,,0,Summer,Rainy,0,2040.98,99.06,In-Store,Corporate,2772.91
+529,12-06-2025,P003,Office Chair,Furniture,S01,Chennai,59,3062.11,15,153564.82,1,1,Thursday,June,Q2,0,,0,Summer,Clear,0,3140,106.74,In-Store,Corporate,543.42
+530,13-06-2025,P004,Notebook Pack,Stationery,S02,Bengaluru,65,764.04,10,44696.34,1,1,Friday,June,Q2,0,,0,Summer,Clear,0,819.47,109.8,Wholesale,Retail,4910.05
+531,14-06-2025,P004,Notebook Pack,Stationery,S03,Mumbai,61,454.73,0,27738.53,0,1,Saturday,June,Q2,0,,1,Summer,Stormy,0,423.79,108.84,Online,Wholesale,182.1
+532,15-06-2025,P004,Notebook Pack,Stationery,S04,Delhi,63,1406.63,10,79755.92,1,1,Sunday,June,Q2,0,,1,Summer,Sunny,0,1474.27,108.87,Online,Retail,7962.17
+533,16-06-2025,P008,Coffee Maker,Appliances,S01,Chennai,0,540.13,0,0,1,0,Monday,June,Q2,0,,0,Summer,Clear,0,531.39,106.21,In-Store,Retail,7900.27
+534,17-06-2025,P006,Running Shoes,Apparel,S02,Bengaluru,71,670.71,15,40477.35,1,1,Tuesday,June,Q2,0,,0,Summer,Rainy,0,723.21,96.1,Wholesale,Corporate,1016.22
+535,18-06-2025,P007,Yoga Mat,Sports,S02,Bengaluru,62,1237.59,10,69057.52,1,1,Wednesday,June,Q2,0,,0,Summer,Rainy,0,1206.28,101.87,Online,Wholesale,3906.61
+536,19-06-2025,P005,LED Desk Lamp,Home,S02,Bengaluru,32,1812.28,0,57992.96,0,1,Thursday,June,Q2,0,,0,Summer,Rainy,0,1939.74,101.88,Online,Corporate,109.93
+537,20-06-2025,P005,LED Desk Lamp,Home,S02,Bengaluru,0,3989.83,15,0,1,0,Friday,June,Q2,0,,0,Summer,Rainy,1,4364.98,107.83,Online,Corporate,8641.25
+538,21-06-2025,P008,Coffee Maker,Appliances,S02,Bengaluru,72,3039.59,20,175080.38,1,1,Saturday,June,Q2,0,,1,Summer,Cloudy,0,3179.42,106.04,Online,Retail,3609.31
+539,22-06-2025,P004,Notebook Pack,Stationery,S02,Bengaluru,37,4586.02,0,169682.74,1,1,Sunday,June,Q2,0,,1,Summer,Sunny,0,4800.17,102.56,In-Store,Wholesale,4246.04
+540,23-06-2025,P002,Bluetooth Speaker,Electronics,S04,Delhi,20,2577.37,0,51547.4,0,1,Monday,June,Q2,0,,0,Summer,Rainy,0,2504.38,98.59,Online,Retail,239.89
+541,24-06-2025,P005,LED Desk Lamp,Home,S02,Bengaluru,7,3575.86,20,20024.82,1,0,Tuesday,June,Q2,0,,0,Summer,Clear,0,3916.58,101.96,Online,Wholesale,4350.92
+542,25-06-2025,P006,Running Shoes,Apparel,S04,Delhi,17,3578.73,0,60838.41,0,1,Wednesday,June,Q2,0,,0,Summer,Cloudy,1,3244.27,101.39,In-Store,Wholesale,473.05
+543,26-06-2025,P004,Notebook Pack,Stationery,S01,Chennai,4,3178.19,0,12712.76,0,0,Thursday,June,Q2,0,,0,Summer,Cloudy,0,2930.91,100.48,Wholesale,Retail,182.79
+544,27-06-2025,P003,Office Chair,Furniture,S01,Chennai,78,2891.64,20,180438.34,1,1,Friday,June,Q2,0,,0,Summer,Rainy,0,2740.48,96.7,In-Store,Wholesale,9421.91
+545,28-06-2025,P004,Notebook Pack,Stationery,S02,Bengaluru,38,1738.23,0,66052.74,1,1,Saturday,June,Q2,0,,1,Summer,Sunny,0,1694.01,101.79,Wholesale,Wholesale,8380.82
+546,29-06-2025,P008,Coffee Maker,Appliances,S03,Mumbai,30,2369.5,0,71085,0,1,Sunday,June,Q2,0,,1,Summer,Stormy,0,2170.54,108.47,In-Store,Retail,54.68
+547,30-06-2025,P005,LED Desk Lamp,Home,S01,Chennai,54,3545.99,5,181909.29,1,1,Monday,June,Q2,0,,0,Summer,Rainy,1,3866.62,95.34,In-Store,Wholesale,5643.63
+548,01-07-2025,P003,Office Chair,Furniture,S04,Delhi,52,1864.16,5,92089.5,1,1,Tuesday,July,Q3,0,,0,Summer,Cloudy,0,1701.21,108.08,Online,Wholesale,6624.38
+549,02-07-2025,P007,Yoga Mat,Sports,S03,Mumbai,76,3347.65,20,203537.12,1,1,Wednesday,July,Q3,0,,0,Summer,Stormy,1,3458.7,102.95,Wholesale,Corporate,4851.07
+550,03-07-2025,P003,Office Chair,Furniture,S03,Mumbai,35,1024.34,0,35851.9,0,1,Thursday,July,Q3,0,,0,Summer,Cloudy,0,1079.6,95.71,In-Store,Corporate,227.96
+551,04-07-2025,P003,Office Chair,Furniture,S02,Bengaluru,15,3616.7,0,54250.5,0,1,Friday,July,Q3,0,,0,Summer,Rainy,0,3427.12,95.62,In-Store,Wholesale,63.24
+552,05-07-2025,P005,LED Desk Lamp,Home,S03,Mumbai,78,1085.58,10,76207.72,1,1,Saturday,July,Q3,0,,1,Summer,Cloudy,0,1009.14,101.73,Online,Wholesale,3364.82
+553,06-07-2025,P001,Wireless Mouse,Electronics,S04,Delhi,68,4669.13,20,254000.67,1,1,Sunday,July,Q3,0,,1,Summer,Stormy,0,4347.94,109.55,Wholesale,Wholesale,3647.17
+554,07-07-2025,P005,LED Desk Lamp,Home,S04,Delhi,2,4500.69,20,7201.1,1,0,Monday,July,Q3,0,,0,Summer,Rainy,1,4706.41,108.83,In-Store,Wholesale,1567
+555,08-07-2025,P008,Coffee Maker,Appliances,S01,Chennai,74,869.23,10,57890.72,1,1,Tuesday,July,Q3,0,,0,Summer,Cloudy,0,852.13,107.61,In-Store,Corporate,1378.57
+556,09-07-2025,P001,Wireless Mouse,Electronics,S02,Bengaluru,17,3000.47,0,51007.99,0,1,Wednesday,July,Q3,0,,0,Summer,Sunny,0,3023.52,101.68,Wholesale,Retail,487.92
+557,10-07-2025,P007,Yoga Mat,Sports,S02,Bengaluru,0,2554.23,10,0,1,0,Thursday,July,Q3,0,,0,Summer,Clear,0,2762.88,100.42,Online,Wholesale,8611.14
+558,11-07-2025,P006,Running Shoes,Apparel,S04,Delhi,27,1989.59,0,53718.93,0,1,Friday,July,Q3,0,,0,Summer,Cloudy,0,2138.53,96.31,Wholesale,Corporate,370.76
+559,12-07-2025,P007,Yoga Mat,Sports,S04,Delhi,92,1585.44,20,116688.38,1,1,Saturday,July,Q3,0,,1,Summer,Stormy,0,1691.83,103.97,Online,Retail,3380.7
+560,13-07-2025,P006,Running Shoes,Apparel,S01,Chennai,40,4679.13,10,168448.68,1,1,Sunday,July,Q3,0,,1,Summer,Sunny,0,4594.4,108.72,In-Store,Retail,5780.23
+561,14-07-2025,P003,Office Chair,Furniture,S02,Bengaluru,64,1092.83,5,66444.06,1,1,Monday,July,Q3,0,,0,Summer,Clear,0,992.78,107.39,Wholesale,Corporate,5193.95
+562,15-07-2025,P008,Coffee Maker,Appliances,S02,Bengaluru,63,328.83,0,20716.29,0,1,Tuesday,July,Q3,0,,0,Summer,Cloudy,0,304.11,104.99,In-Store,Corporate,89.69
+563,16-07-2025,P004,Notebook Pack,Stationery,S01,Chennai,64,772.9,0,49465.6,1,1,Wednesday,July,Q3,0,,0,Summer,Clear,0,785.43,103.48,In-Store,Wholesale,7016.17
+564,17-07-2025,P002,Bluetooth Speaker,Electronics,S03,Mumbai,51,2660.12,10,122099.51,1,1,Thursday,July,Q3,0,,0,Summer,Cloudy,0,2703.56,97.19,In-Store,Wholesale,1787.23
+565,18-07-2025,P003,Office Chair,Furniture,S01,Chennai,67,1508.82,5,96036.39,1,1,Friday,July,Q3,0,,0,Summer,Sunny,0,1445.95,104.58,Online,Wholesale,2341.24
+566,19-07-2025,P003,Office Chair,Furniture,S01,Chennai,26,3074.06,0,79925.56,0,1,Saturday,July,Q3,0,,1,Summer,Cloudy,0,3188.07,105.33,Online,Wholesale,290.02
+567,20-07-2025,P003,Office Chair,Furniture,S01,Chennai,35,857.36,0,30007.6,0,1,Sunday,July,Q3,0,,1,Summer,Stormy,0,929.53,97.45,Online,Retail,251.69
+568,21-07-2025,P004,Notebook Pack,Stationery,S01,Chennai,20,2203.26,0,44065.2,0,1,Monday,July,Q3,0,,0,Summer,Sunny,0,2136.37,105.37,Online,Corporate,444.86
+569,22-07-2025,P006,Running Shoes,Apparel,S02,Bengaluru,0,3607.5,0,0,0,1,Tuesday,July,Q3,0,,0,Summer,Rainy,0,3743.18,99.61,Online,Retail,490.55
+570,23-07-2025,P007,Yoga Mat,Sports,S01,Chennai,86,573.13,20,39431.34,1,1,Wednesday,July,Q3,0,,0,Summer,Stormy,0,538.32,95.49,Wholesale,Wholesale,6135.17
+571,24-07-2025,P008,Coffee Maker,Appliances,S01,Chennai,5,4560.94,0,22804.7,0,1,Thursday,July,Q3,0,,0,Summer,Sunny,0,4818.52,108.8,Online,Wholesale,450.59
+572,25-07-2025,P003,Office Chair,Furniture,S03,Mumbai,13,340.44,0,4425.72,0,0,Friday,July,Q3,0,,0,Summer,Cloudy,0,317.33,102.51,Wholesale,Wholesale,120.91
+573,26-07-2025,P002,Bluetooth Speaker,Electronics,S01,Chennai,66,4134.02,20,218276.26,1,1,Saturday,July,Q3,0,,1,Summer,Clear,0,4312.45,109.46,Online,Wholesale,541.12
+574,27-07-2025,P002,Bluetooth Speaker,Electronics,S02,Bengaluru,69,4618.29,20,254929.61,1,1,Sunday,July,Q3,0,,1,Summer,Cloudy,1,4327.45,105.1,Online,Retail,8430.05
+575,28-07-2025,P007,Yoga Mat,Sports,S04,Delhi,59,1228.52,0,72482.68,1,1,Monday,July,Q3,0,,0,Summer,Cloudy,0,1220.14,102.8,In-Store,Corporate,7194.94
+576,29-07-2025,P001,Wireless Mouse,Electronics,S01,Chennai,42,1774.95,0,74547.9,1,1,Tuesday,July,Q3,0,,0,Summer,Stormy,1,1858.79,105.31,In-Store,Retail,5762.2
+577,30-07-2025,P005,LED Desk Lamp,Home,S04,Delhi,56,1106.17,0,61945.52,1,1,Wednesday,July,Q3,0,,0,Summer,Rainy,0,1216.5,102.37,Online,Corporate,4661.55
+578,31-07-2025,P002,Bluetooth Speaker,Electronics,S01,Chennai,6,888.16,5,5062.51,1,0,Thursday,July,Q3,0,,0,Summer,Sunny,0,810.84,109.63,In-Store,Retail,6152.13
+579,01-08-2025,P007,Yoga Mat,Sports,S01,Chennai,59,1317.77,5,73861.01,1,1,Friday,August,Q3,0,,0,Summer,Cloudy,1,1342.45,106.34,Wholesale,Corporate,3882.92
+580,02-08-2025,P007,Yoga Mat,Sports,S04,Delhi,58,2654.79,0,153977.82,1,1,Saturday,August,Q3,0,,1,Summer,Sunny,0,2649.13,98.46,Online,Retail,1446.23
+581,03-08-2025,P001,Wireless Mouse,Electronics,S01,Chennai,37,2591.05,0,95868.85,0,1,Sunday,August,Q3,0,,1,Summer,Clear,0,2411.09,104.33,Online,Retail,330.54
+582,04-08-2025,P008,Coffee Maker,Appliances,S04,Delhi,84,1169.27,15,83485.88,1,1,Monday,August,Q3,0,,0,Summer,Stormy,1,1113.53,100.15,Wholesale,Wholesale,667.87
+583,05-08-2025,P001,Wireless Mouse,Electronics,S04,Delhi,26,4424.6,0,115039.6,1,1,Tuesday,August,Q3,0,,0,Summer,Cloudy,0,4373.77,95.54,Online,Wholesale,6764.4
+584,06-08-2025,P005,LED Desk Lamp,Home,S02,Bengaluru,43,2559.1,0,110041.3,0,1,Wednesday,August,Q3,0,,0,Summer,Stormy,0,2594.34,102.36,Wholesale,Wholesale,269.7
+585,07-08-2025,P008,Coffee Maker,Appliances,S04,Delhi,22,2898.83,0,63774.26,0,1,Thursday,August,Q3,0,,0,Summer,Cloudy,0,2951.61,100.67,Wholesale,Corporate,383.24
+586,08-08-2025,P005,LED Desk Lamp,Home,S03,Mumbai,77,494.84,10,34292.41,1,1,Friday,August,Q3,0,,0,Summer,Rainy,0,479.88,106.13,Online,Wholesale,3741.94
+587,09-08-2025,P002,Bluetooth Speaker,Electronics,S04,Delhi,53,1856.69,0,98404.57,1,1,Saturday,August,Q3,0,,1,Summer,Sunny,0,1762.97,104.72,Wholesale,Retail,9148.7
+588,10-08-2025,P002,Bluetooth Speaker,Electronics,S03,Mumbai,0,749.46,0,0,0,0,Sunday,August,Q3,0,,1,Summer,Cloudy,0,743.6,107.95,Wholesale,Wholesale,450.7
+589,11-08-2025,P005,LED Desk Lamp,Home,S01,Chennai,51,3540.6,10,162513.54,1,1,Monday,August,Q3,0,,0,Summer,Cloudy,0,3590.42,99.84,Online,Corporate,1450.54
+590,12-08-2025,P004,Notebook Pack,Stationery,S03,Mumbai,74,2584.31,20,152991.15,1,1,Tuesday,August,Q3,0,,0,Summer,Rainy,1,2480.69,109.54,Online,Corporate,6536.72
+591,13-08-2025,P002,Bluetooth Speaker,Electronics,S02,Bengaluru,1,1579.31,0,1579.31,0,0,Wednesday,August,Q3,0,,0,Summer,Stormy,0,1618.66,109.37,Wholesale,Wholesale,47.37
+592,14-08-2025,P006,Running Shoes,Apparel,S03,Mumbai,0,522.89,20,0,1,0,Thursday,August,Q3,0,,0,Summer,Stormy,0,492.54,106.93,Wholesale,Corporate,5294.08
+593,15-08-2025,P005,LED Desk Lamp,Home,S04,Delhi,20,3384.59,0,67691.8,0,1,Friday,August,Q3,0,,0,Summer,Stormy,0,3469.18,101.8,Wholesale,Retail,440.45
+594,16-08-2025,P003,Office Chair,Furniture,S04,Delhi,107,1222.17,20,104617.75,1,1,Saturday,August,Q3,0,,1,Summer,Cloudy,1,1297.68,107.79,In-Store,Wholesale,7402.84
+595,17-08-2025,P001,Wireless Mouse,Electronics,S02,Bengaluru,49,1948.52,0,95477.48,0,1,Sunday,August,Q3,0,,1,Summer,Cloudy,0,1913.55,107.9,Online,Wholesale,101.78
+596,18-08-2025,P007,Yoga Mat,Sports,S03,Mumbai,54,4153.81,15,190659.88,1,1,Monday,August,Q3,0,,0,Summer,Cloudy,1,3934.6,98.58,Online,Retail,763.19
+597,19-08-2025,P005,LED Desk Lamp,Home,S04,Delhi,45,2529.84,5,108150.66,1,1,Tuesday,August,Q3,0,,0,Summer,Sunny,0,2357.49,97.05,In-Store,Corporate,6757.37
+598,20-08-2025,P003,Office Chair,Furniture,S01,Chennai,16,4826.18,5,73357.94,1,1,Wednesday,August,Q3,0,,0,Summer,Sunny,0,4646.55,99.47,Online,Corporate,9019.35
+599,21-08-2025,P002,Bluetooth Speaker,Electronics,S04,Delhi,37,4727.18,15,148669.81,1,1,Thursday,August,Q3,0,,0,Summer,Rainy,0,4794.28,102.5,Online,Wholesale,6810.06
+600,22-08-2025,P005,LED Desk Lamp,Home,S04,Delhi,21,4445.91,0,93364.11,0,1,Friday,August,Q3,0,,0,Summer,Cloudy,1,4656.86,107.09,Wholesale,Retail,467.75
+601,23-08-2025,P004,Notebook Pack,Stationery,S02,Bengaluru,59,712.71,0,42049.89,0,1,Saturday,August,Q3,0,,1,Summer,Stormy,0,764.44,95.84,Wholesale,Corporate,349.81
+602,24-08-2025,P002,Bluetooth Speaker,Electronics,S03,Mumbai,47,2819.58,5,125894.25,1,1,Sunday,August,Q3,0,,1,Summer,Cloudy,0,2742.32,105.74,In-Store,Retail,6631.28
+603,25-08-2025,P001,Wireless Mouse,Electronics,S01,Chennai,79,3515.28,20,222165.7,1,1,Monday,August,Q3,0,,0,Summer,Cloudy,1,3434.21,104.58,Wholesale,Corporate,9079.99
+604,26-08-2025,P002,Bluetooth Speaker,Electronics,S02,Bengaluru,40,4316.71,5,164034.98,1,1,Tuesday,August,Q3,0,,0,Summer,Stormy,0,4144.81,109.04,Online,Corporate,2498.67
+605,27-08-2025,P003,Office Chair,Furniture,S04,Delhi,66,3230.49,20,170569.87,1,1,Wednesday,August,Q3,0,,0,Summer,Sunny,0,3467.25,107.35,In-Store,Corporate,7500.95
+606,28-08-2025,P006,Running Shoes,Apparel,S04,Delhi,66,4408.45,20,232766.16,1,1,Thursday,August,Q3,0,,0,Summer,Rainy,0,4414.04,100.28,Wholesale,Wholesale,8227.57
+607,29-08-2025,P006,Running Shoes,Apparel,S04,Delhi,53,3537.01,20,149969.22,1,1,Friday,August,Q3,0,,0,Summer,Rainy,0,3742.88,97.04,In-Store,Retail,6468.81
+608,30-08-2025,P006,Running Shoes,Apparel,S01,Chennai,0,731.98,0,0,0,0,Saturday,August,Q3,0,,1,Summer,Stormy,0,724.88,108.1,Online,Corporate,86.74
+609,31-08-2025,P006,Running Shoes,Apparel,S03,Mumbai,57,1153.59,5,62466.9,1,1,Sunday,August,Q3,0,,1,Summer,Rainy,0,1240.43,109.17,Wholesale,Retail,696.98
+610,01-09-2025,P001,Wireless Mouse,Electronics,S02,Bengaluru,39,4552.85,5,168683.09,1,1,Monday,September,Q3,0,,0,Autumn,Cloudy,0,4142.9,104.27,Wholesale,Corporate,1917.89
+611,02-09-2025,P006,Running Shoes,Apparel,S02,Bengaluru,5,4746.77,0,23733.85,0,0,Tuesday,September,Q3,0,,0,Autumn,Stormy,0,5057.45,102.41,Online,Wholesale,101.57
+612,03-09-2025,P005,LED Desk Lamp,Home,S03,Mumbai,34,3782.93,5,122188.64,1,1,Wednesday,September,Q3,0,,0,Autumn,Stormy,0,3858.65,109.93,In-Store,Wholesale,6933.29
+613,04-09-2025,P007,Yoga Mat,Sports,S02,Bengaluru,31,2160.92,0,66988.52,0,1,Thursday,September,Q3,0,,0,Autumn,Cloudy,0,2211.78,108.61,In-Store,Wholesale,342.13
+614,05-09-2025,P008,Coffee Maker,Appliances,S01,Chennai,39,249.54,0,9732.06,0,1,Friday,September,Q3,0,,0,Autumn,Rainy,0,259.94,106.04,In-Store,Retail,47.64
+615,06-09-2025,P001,Wireless Mouse,Electronics,S01,Chennai,89,1797.74,0,159998.86,1,1,Saturday,September,Q3,0,,1,Autumn,Clear,1,1873.09,107.15,Online,Corporate,5293.15
+616,07-09-2025,P007,Yoga Mat,Sports,S03,Mumbai,62,4892.11,15,257814.2,1,1,Sunday,September,Q3,0,,1,Autumn,Rainy,1,4443.14,97.69,Online,Wholesale,5181.98
+617,08-09-2025,P006,Running Shoes,Apparel,S04,Delhi,58,833.21,0,48326.18,1,1,Monday,September,Q3,0,,0,Autumn,Cloudy,0,802.09,109.68,In-Store,Corporate,7604.32
+618,09-09-2025,P007,Yoga Mat,Sports,S03,Mumbai,6,4533.4,0,27200.4,0,0,Tuesday,September,Q3,0,,0,Autumn,Cloudy,0,4889.43,99.73,In-Store,Retail,277.84
+619,10-09-2025,P008,Coffee Maker,Appliances,S01,Chennai,43,1106.82,0,47593.26,0,1,Wednesday,September,Q3,0,,0,Autumn,Sunny,0,1053.74,105.59,In-Store,Retail,497.6
+620,11-09-2025,P008,Coffee Maker,Appliances,S01,Chennai,2,2319.29,15,3942.79,1,0,Thursday,September,Q3,0,,0,Autumn,Stormy,0,2316.04,107.69,Online,Retail,3821.24
+621,12-09-2025,P004,Notebook Pack,Stationery,S03,Mumbai,0,1067.14,0,0,0,0,Friday,September,Q3,0,,0,Autumn,Clear,0,1084.97,109.57,Wholesale,Wholesale,90.28
+622,13-09-2025,P002,Bluetooth Speaker,Electronics,S02,Bengaluru,62,3887.62,15,204877.57,1,1,Saturday,September,Q3,0,,1,Autumn,Cloudy,0,3719.89,109.72,Online,Corporate,4048.8
+623,14-09-2025,P002,Bluetooth Speaker,Electronics,S03,Mumbai,81,938.12,0,75987.72,1,1,Sunday,September,Q3,0,,1,Autumn,Stormy,0,955.79,95.09,Online,Wholesale,6412.47
+624,15-09-2025,P008,Coffee Maker,Appliances,S03,Mumbai,11,4747.61,15,44390.15,1,0,Monday,September,Q3,0,,0,Autumn,Rainy,0,5092.55,107.02,In-Store,Corporate,8082.4
+625,16-09-2025,P002,Bluetooth Speaker,Electronics,S04,Delhi,56,644.24,0,36077.44,0,1,Tuesday,September,Q3,0,,0,Autumn,Stormy,0,582.46,98.12,In-Store,Corporate,142.47
+626,17-09-2025,P003,Office Chair,Furniture,S01,Chennai,87,1633.02,20,113658.19,1,1,Wednesday,September,Q3,0,,0,Autumn,Cloudy,1,1512.6,104.98,In-Store,Wholesale,2398.78
+627,18-09-2025,P008,Coffee Maker,Appliances,S04,Delhi,0,2486.91,10,0,1,0,Thursday,September,Q3,0,,0,Autumn,Stormy,0,2614.48,107.16,Wholesale,Retail,4624.01
+628,19-09-2025,P007,Yoga Mat,Sports,S01,Chennai,60,394.1,0,23646,1,1,Friday,September,Q3,0,,0,Autumn,Rainy,0,396.25,104.71,Online,Corporate,4948.08
+629,20-09-2025,P002,Bluetooth Speaker,Electronics,S04,Delhi,44,1641.89,0,72243.16,0,1,Saturday,September,Q3,0,,1,Autumn,Clear,0,1574.73,95.72,Online,Retail,256.71
+630,21-09-2025,P007,Yoga Mat,Sports,S04,Delhi,9,653.52,15,4999.43,1,0,Sunday,September,Q3,0,,1,Autumn,Cloudy,0,621.48,96.23,Wholesale,Retail,1582.39
+631,22-09-2025,P008,Coffee Maker,Appliances,S02,Bengaluru,42,3973.65,20,133514.64,1,1,Monday,September,Q3,0,,0,Autumn,Sunny,0,3907.09,105.57,In-Store,Wholesale,7378.9
+632,23-09-2025,P008,Coffee Maker,Appliances,S03,Mumbai,89,1838.41,20,130894.79,1,1,Tuesday,September,Q3,0,,0,Autumn,Rainy,0,1683.33,109.73,In-Store,Wholesale,1510.14
+633,24-09-2025,P001,Wireless Mouse,Electronics,S01,Chennai,28,2095.68,0,58679.04,0,1,Wednesday,September,Q3,0,,0,Autumn,Stormy,0,2250.25,109.49,Wholesale,Wholesale,243.36
+634,25-09-2025,P006,Running Shoes,Apparel,S04,Delhi,6,4062.28,0,24373.68,0,1,Thursday,September,Q3,0,,0,Autumn,Sunny,0,3746.98,95.24,Online,Retail,104.61
+635,26-09-2025,P003,Office Chair,Furniture,S02,Bengaluru,0,2291.78,15,0,1,0,Friday,September,Q3,0,,0,Autumn,Rainy,0,2200.53,101.95,In-Store,Corporate,707.26
+636,27-09-2025,P003,Office Chair,Furniture,S02,Bengaluru,32,3746.15,5,113882.96,1,1,Saturday,September,Q3,0,,1,Autumn,Stormy,0,4015.72,103.78,Online,Corporate,5909.59
+637,28-09-2025,P007,Yoga Mat,Sports,S01,Chennai,76,1802.48,0,136988.48,1,1,Sunday,September,Q3,0,,1,Autumn,Stormy,1,1837.03,103.31,In-Store,Retail,5131.22
+638,29-09-2025,P008,Coffee Maker,Appliances,S04,Delhi,37,1313.15,0,48586.55,0,1,Monday,September,Q3,0,,0,Autumn,Clear,0,1327.14,99.02,Wholesale,Corporate,444.57
+639,30-09-2025,P002,Bluetooth Speaker,Electronics,S04,Delhi,45,3188.94,15,121976.95,1,1,Tuesday,September,Q3,0,,0,Autumn,Stormy,0,2883.32,99.32,Online,Corporate,3766.55
+640,01-10-2025,P004,Notebook Pack,Stationery,S02,Bengaluru,47,3020.76,15,120679.36,1,1,Wednesday,October,Q4,0,,0,Autumn,Clear,0,2797.92,99.4,Wholesale,Corporate,9618.13
+641,02-10-2025,P006,Running Shoes,Apparel,S04,Delhi,52,4038.82,20,168014.91,1,1,Thursday,October,Q4,0,,0,Autumn,Clear,0,3863.1,106.24,Wholesale,Corporate,1726.42
+642,03-10-2025,P004,Notebook Pack,Stationery,S02,Bengaluru,47,3107.6,0,146057.2,1,1,Friday,October,Q4,0,,0,Autumn,Cloudy,0,2927.01,95.71,Online,Corporate,8868.61
+643,04-10-2025,P006,Running Shoes,Apparel,S02,Bengaluru,0,1038.63,20,0,1,0,Saturday,October,Q4,0,,1,Autumn,Sunny,0,1004.92,96.71,Online,Retail,5838.82
+644,05-10-2025,P008,Coffee Maker,Appliances,S03,Mumbai,55,4969.58,20,218661.52,1,1,Sunday,October,Q4,0,,1,Autumn,Sunny,1,4738.49,97.27,Wholesale,Wholesale,6240.75
+645,06-10-2025,P002,Bluetooth Speaker,Electronics,S01,Chennai,24,4647.83,5,105970.52,1,1,Monday,October,Q4,0,,0,Autumn,Sunny,0,4909.64,104.14,Online,Wholesale,898.71
+646,07-10-2025,P002,Bluetooth Speaker,Electronics,S02,Bengaluru,61,3223.65,20,157314.12,1,1,Tuesday,October,Q4,0,,0,Autumn,Cloudy,0,3370.87,105.62,Wholesale,Corporate,7459.24
+647,08-10-2025,P002,Bluetooth Speaker,Electronics,S02,Bengaluru,0,3306.05,0,0,0,1,Wednesday,October,Q4,0,,0,Autumn,Rainy,0,3616.58,106.54,Online,Retail,417.41
+648,09-10-2025,P008,Coffee Maker,Appliances,S03,Mumbai,34,1576.44,0,53598.96,0,1,Thursday,October,Q4,0,,0,Autumn,Cloudy,0,1532.5,104.97,Online,Wholesale,210.86
+649,10-10-2025,P004,Notebook Pack,Stationery,S02,Bengaluru,42,4048.49,5,161534.75,1,1,Friday,October,Q4,0,,0,Autumn,Stormy,1,4287.03,100.43,Online,Corporate,1883.05
+650,11-10-2025,P001,Wireless Mouse,Electronics,S01,Chennai,75,606.94,0,45520.5,1,1,Saturday,October,Q4,0,,1,Autumn,Stormy,0,593.98,95.56,Wholesale,Retail,9073.86
+651,12-10-2025,P001,Wireless Mouse,Electronics,S03,Mumbai,15,2212.67,15,28211.54,1,0,Sunday,October,Q4,0,,1,Autumn,Cloudy,0,2393.77,95.12,In-Store,Wholesale,6298.81
+652,13-10-2025,P003,Office Chair,Furniture,S04,Delhi,51,2341.71,0,119427.21,1,1,Monday,October,Q4,0,,0,Autumn,Stormy,0,2520.14,96.26,Wholesale,Corporate,4204.94
+653,14-10-2025,P003,Office Chair,Furniture,S03,Mumbai,0,1225.93,10,0,1,0,Tuesday,October,Q4,0,,0,Autumn,Cloudy,1,1186.87,104.54,Online,Retail,8958.03
+654,15-10-2025,P005,LED Desk Lamp,Home,S02,Bengaluru,0,4194.7,0,0,1,0,Wednesday,October,Q4,0,,0,Autumn,Sunny,0,4481.27,98.9,Wholesale,Corporate,1676.22
+655,16-10-2025,P002,Bluetooth Speaker,Electronics,S04,Delhi,92,1630.21,15,127482.42,1,1,Thursday,October,Q4,0,,0,Autumn,Stormy,0,1787.67,107.08,Wholesale,Wholesale,7289.15
+656,17-10-2025,P004,Notebook Pack,Stationery,S03,Mumbai,0,1636.17,15,0,1,0,Friday,October,Q4,0,,0,Autumn,Rainy,0,1642.61,98.71,In-Store,Wholesale,6032.51
+657,18-10-2025,P006,Running Shoes,Apparel,S04,Delhi,91,670.34,15,51850.8,1,1,Saturday,October,Q4,0,,1,Autumn,Stormy,0,615.67,101.37,Online,Corporate,2540.45
+658,19-10-2025,P002,Bluetooth Speaker,Electronics,S03,Mumbai,0,3448.75,5,0,1,0,Sunday,October,Q4,0,,1,Autumn,Clear,1,3641.07,108.08,Wholesale,Corporate,6546.38
+659,20-10-2025,P008,Coffee Maker,Appliances,S04,Delhi,49,3712.24,5,172804.77,1,1,Monday,October,Q4,0,,0,Autumn,Rainy,1,3435.4,105.67,Online,Wholesale,5375.26
+660,21-10-2025,P002,Bluetooth Speaker,Electronics,S02,Bengaluru,0,2386.08,0,0,0,0,Tuesday,October,Q4,0,,0,Autumn,Cloudy,0,2434.57,101.13,Online,Corporate,285.88
+661,22-10-2025,P001,Wireless Mouse,Electronics,S02,Bengaluru,38,765.16,0,29076.08,0,1,Wednesday,October,Q4,0,,0,Autumn,Cloudy,0,692.93,97.14,Wholesale,Corporate,24.33
+662,23-10-2025,P005,LED Desk Lamp,Home,S03,Mumbai,78,1234.79,20,77050.9,1,1,Thursday,October,Q4,0,,0,Autumn,Sunny,0,1246.53,96.01,Online,Corporate,5071.18
+663,24-10-2025,P005,LED Desk Lamp,Home,S04,Delhi,62,4521.38,20,224260.45,1,1,Friday,October,Q4,0,,0,Autumn,Stormy,1,4189.34,97.08,Wholesale,Corporate,7735.95
+664,25-10-2025,P008,Coffee Maker,Appliances,S02,Bengaluru,0,4358.46,0,0,0,0,Saturday,October,Q4,0,,1,Autumn,Clear,0,4260.16,108.5,In-Store,Wholesale,22.91
+665,26-10-2025,P008,Coffee Maker,Appliances,S03,Mumbai,78,3300.4,20,205944.96,1,1,Sunday,October,Q4,0,,1,Autumn,Sunny,1,3386.28,106.57,In-Store,Wholesale,6629.02
+666,27-10-2025,P002,Bluetooth Speaker,Electronics,S02,Bengaluru,1,4784.81,10,4306.33,1,0,Monday,October,Q4,0,,0,Autumn,Sunny,1,4805.63,106.26,Wholesale,Retail,1642.69
+667,28-10-2025,P003,Office Chair,Furniture,S01,Chennai,0,1519.82,0,0,0,0,Tuesday,October,Q4,0,,0,Autumn,Stormy,0,1613.11,104.1,In-Store,Wholesale,22.49
+668,29-10-2025,P001,Wireless Mouse,Electronics,S03,Mumbai,62,2297.68,5,135333.35,1,1,Wednesday,October,Q4,0,,0,Autumn,Clear,0,2243.46,96.37,Online,Wholesale,2097.48
+669,30-10-2025,P003,Office Chair,Furniture,S02,Bengaluru,15,1426.66,0,21399.9,0,1,Thursday,October,Q4,0,,0,Autumn,Stormy,0,1300.8,109.42,Online,Retail,356.65
+670,31-10-2025,P005,LED Desk Lamp,Home,S04,Delhi,67,673.97,0,45155.99,1,1,Friday,October,Q4,0,,0,Autumn,Cloudy,0,733.49,108.49,Online,Retail,2776.42
+671,01-11-2025,P004,Notebook Pack,Stationery,S04,Delhi,74,2641.38,10,175915.91,1,1,Saturday,November,Q4,0,,1,Autumn,Sunny,0,2409.27,101.97,In-Store,Retail,5099.63
+672,02-11-2025,P007,Yoga Mat,Sports,S02,Bengaluru,0,4585.93,0,0,0,0,Sunday,November,Q4,0,,1,Autumn,Clear,0,4353.25,103.32,Online,Corporate,284.12
+673,03-11-2025,P008,Coffee Maker,Appliances,S01,Chennai,35,4262.13,10,134257.1,1,1,Monday,November,Q4,0,,0,Autumn,Rainy,0,4296.6,97.52,Online,Wholesale,9549.82
+674,04-11-2025,P008,Coffee Maker,Appliances,S01,Chennai,0,204.81,5,0,1,0,Tuesday,November,Q4,0,,0,Autumn,Cloudy,0,184.35,109,In-Store,Corporate,6179.74
+675,05-11-2025,P007,Yoga Mat,Sports,S03,Mumbai,8,4243.71,0,33949.68,0,1,Wednesday,November,Q4,0,,0,Autumn,Rainy,1,4297.25,99.51,In-Store,Wholesale,61.49
+676,06-11-2025,P003,Office Chair,Furniture,S03,Mumbai,0,4415.74,0,0,0,1,Thursday,November,Q4,0,,0,Autumn,Cloudy,0,4215.28,104.93,In-Store,Corporate,105.31
+677,07-11-2025,P006,Running Shoes,Apparel,S01,Chennai,0,4587.29,0,0,0,0,Friday,November,Q4,0,,0,Autumn,Stormy,0,4955.6,105.09,In-Store,Wholesale,447.63
+678,08-11-2025,P008,Coffee Maker,Appliances,S04,Delhi,91,2783.03,20,202604.58,1,1,Saturday,November,Q4,0,,1,Autumn,Clear,0,3001.54,107.24,In-Store,Wholesale,1672.45
+679,09-11-2025,P007,Yoga Mat,Sports,S03,Mumbai,92,2056.4,20,151351.04,1,1,Sunday,November,Q4,0,,1,Autumn,Sunny,0,2003.13,97.89,Online,Retail,7559.87
+680,10-11-2025,P005,LED Desk Lamp,Home,S03,Mumbai,10,1119.26,20,8954.08,1,0,Monday,November,Q4,0,,0,Autumn,Cloudy,0,1059.77,102.41,In-Store,Retail,3167.19
+681,11-11-2025,P004,Notebook Pack,Stationery,S01,Chennai,89,1141.22,20,81254.86,1,1,Tuesday,November,Q4,0,,0,Autumn,Sunny,0,1156.99,102.41,Wholesale,Retail,6768.47
+682,12-11-2025,P003,Office Chair,Furniture,S01,Chennai,48,3023.19,15,123346.15,1,1,Wednesday,November,Q4,0,,0,Autumn,Rainy,0,3285.34,107.83,Wholesale,Wholesale,7931.4
+683,13-11-2025,P004,Notebook Pack,Stationery,S01,Chennai,0,4961.37,15,0,1,0,Thursday,November,Q4,0,,0,Autumn,Clear,0,5140.65,108.25,Online,Corporate,6589.18
+684,14-11-2025,P001,Wireless Mouse,Electronics,S03,Mumbai,66,2276.23,5,142719.62,1,1,Friday,November,Q4,0,,0,Autumn,Sunny,1,2261.02,100.42,Online,Wholesale,2633.21
+685,15-11-2025,P005,LED Desk Lamp,Home,S04,Delhi,23,2755.57,0,63378.11,0,1,Saturday,November,Q4,0,,1,Autumn,Rainy,0,2525.1,103.58,Online,Wholesale,112.81
+686,16-11-2025,P007,Yoga Mat,Sports,S01,Chennai,20,4601.58,0,92031.6,0,1,Sunday,November,Q4,0,,1,Autumn,Cloudy,0,4717.53,96.45,In-Store,Corporate,404.03
+687,17-11-2025,P006,Running Shoes,Apparel,S03,Mumbai,57,1386.34,5,75070.31,1,1,Monday,November,Q4,0,,0,Autumn,Cloudy,0,1475.52,102.8,Online,Retail,7869.62
+688,18-11-2025,P008,Coffee Maker,Appliances,S01,Chennai,45,3201.67,10,129667.63,1,1,Tuesday,November,Q4,0,,0,Autumn,Sunny,0,3468.51,100.66,Wholesale,Retail,7935.14
+689,19-11-2025,P001,Wireless Mouse,Electronics,S04,Delhi,81,462.99,10,33751.97,1,1,Wednesday,November,Q4,0,,0,Autumn,Sunny,0,479.43,103.39,In-Store,Corporate,4315.99
+690,20-11-2025,P007,Yoga Mat,Sports,S02,Bengaluru,4,4350,20,13920,1,0,Thursday,November,Q4,0,,0,Autumn,Sunny,0,4249.01,106.93,Wholesale,Wholesale,1462.14
+691,21-11-2025,P001,Wireless Mouse,Electronics,S04,Delhi,50,2682.62,10,120717.9,1,1,Friday,November,Q4,0,,0,Autumn,Sunny,0,2420.95,105.7,Wholesale,Retail,9091.51
+692,22-11-2025,P003,Office Chair,Furniture,S03,Mumbai,9,1905.88,5,16295.27,1,0,Saturday,November,Q4,0,,1,Autumn,Stormy,0,1807.98,106.96,Online,Retail,3460.84
+693,23-11-2025,P007,Yoga Mat,Sports,S03,Mumbai,64,1693.7,10,97557.12,1,1,Sunday,November,Q4,0,,1,Autumn,Rainy,0,1628.89,100.14,In-Store,Retail,5417.97
+694,24-11-2025,P003,Office Chair,Furniture,S01,Chennai,5,1339.46,20,5357.84,1,0,Monday,November,Q4,0,,0,Autumn,Sunny,0,1297.62,109.65,Wholesale,Retail,7960.01
+695,25-11-2025,P006,Running Shoes,Apparel,S02,Bengaluru,58,3405.73,15,167902.49,1,1,Tuesday,November,Q4,0,,0,Autumn,Clear,0,3645.5,103.49,In-Store,Wholesale,3346.5
+696,26-11-2025,P006,Running Shoes,Apparel,S02,Bengaluru,85,703.27,20,47822.36,1,1,Wednesday,November,Q4,0,,0,Autumn,Stormy,0,762.34,104.58,Wholesale,Retail,4932.1
+697,27-11-2025,P004,Notebook Pack,Stationery,S02,Bengaluru,73,2507.58,20,146442.67,1,1,Thursday,November,Q4,0,,0,Autumn,Stormy,0,2457.59,107.39,Online,Corporate,593.97
+698,28-11-2025,P006,Running Shoes,Apparel,S01,Chennai,23,2862.52,0,65837.96,0,1,Friday,November,Q4,0,,0,Autumn,Rainy,1,3098.8,100.4,Online,Retail,98.91
+699,29-11-2025,P003,Office Chair,Furniture,S02,Bengaluru,72,4449.83,15,272329.6,1,1,Saturday,November,Q4,0,,1,Autumn,Cloudy,1,4223.75,97.94,Online,Corporate,9151.17
+700,30-11-2025,P001,Wireless Mouse,Electronics,S02,Bengaluru,83,2018.83,20,134050.31,1,1,Sunday,November,Q4,0,,1,Autumn,Cloudy,0,1940.12,98.6,In-Store,Wholesale,2127.92
+701,01-12-2025,P007,Yoga Mat,Sports,S01,Chennai,38,768.77,0,29213.26,0,1,Monday,December,Q4,0,,0,Winter,Clear,0,798.65,99.77,In-Store,Wholesale,122.27
+702,02-12-2025,P001,Wireless Mouse,Electronics,S02,Bengaluru,15,4301.29,0,64519.35,0,1,Tuesday,December,Q4,0,,0,Winter,Rainy,0,4412.66,99.2,Online,Wholesale,484.19
+703,03-12-2025,P008,Coffee Maker,Appliances,S02,Bengaluru,52,3691.03,20,153546.85,1,1,Wednesday,December,Q4,0,,0,Winter,Clear,0,3445.53,100.82,Wholesale,Wholesale,4055.53
+704,04-12-2025,P008,Coffee Maker,Appliances,S02,Bengaluru,36,1744.75,0,62811,1,1,Thursday,December,Q4,0,,0,Winter,Stormy,0,1773.08,104.57,Wholesale,Wholesale,847.74
+705,05-12-2025,P004,Notebook Pack,Stationery,S02,Bengaluru,29,2369.98,0,68729.42,1,1,Friday,December,Q4,0,,0,Winter,Cloudy,0,2554.23,103.57,In-Store,Corporate,5730.24
+706,06-12-2025,P003,Office Chair,Furniture,S01,Chennai,91,1616.23,10,132369.24,1,1,Saturday,December,Q4,0,,1,Winter,Rainy,1,1467.91,102.68,In-Store,Corporate,4785.94
+707,07-12-2025,P007,Yoga Mat,Sports,S04,Delhi,53,1964.06,5,98890.42,1,1,Sunday,December,Q4,0,,1,Winter,Cloudy,0,1777.36,101.63,In-Store,Wholesale,1220.94
+708,08-12-2025,P002,Bluetooth Speaker,Electronics,S03,Mumbai,14,4244.5,10,53480.7,1,0,Monday,December,Q4,0,,0,Winter,Sunny,0,4606.65,96.48,Online,Corporate,863.67
+709,09-12-2025,P004,Notebook Pack,Stationery,S03,Mumbai,22,1143.9,0,25165.8,0,1,Tuesday,December,Q4,0,,0,Winter,Cloudy,0,1190.95,109.97,Wholesale,Wholesale,271.56
+710,10-12-2025,P005,LED Desk Lamp,Home,S01,Chennai,37,3896.37,0,144165.69,0,1,Wednesday,December,Q4,0,,0,Winter,Stormy,1,4097.27,95.18,Wholesale,Wholesale,494.64
+711,11-12-2025,P003,Office Chair,Furniture,S04,Delhi,76,1292.38,15,83487.75,1,1,Thursday,December,Q4,0,,0,Winter,Stormy,0,1296.47,106.79,In-Store,Wholesale,8236.78
+712,12-12-2025,P006,Running Shoes,Apparel,S01,Chennai,47,1702.76,0,80029.72,1,1,Friday,December,Q4,0,,0,Winter,Rainy,0,1685.72,103.38,In-Store,Retail,5986.33
+713,13-12-2025,P003,Office Chair,Furniture,S03,Mumbai,23,4728.1,0,108746.3,1,1,Saturday,December,Q4,0,,1,Winter,Cloudy,0,4651.64,105.29,In-Store,Wholesale,5607.24
+714,14-12-2025,P006,Running Shoes,Apparel,S01,Chennai,46,2924.37,0,134521.02,0,1,Sunday,December,Q4,0,,1,Winter,Cloudy,1,3000.31,104.05,Wholesale,Wholesale,433.47
+715,15-12-2025,P007,Yoga Mat,Sports,S02,Bengaluru,17,4753.72,0,80813.24,1,1,Monday,December,Q4,0,,0,Winter,Stormy,0,4590.99,109.43,Wholesale,Corporate,1385.79
+716,16-12-2025,P002,Bluetooth Speaker,Electronics,S02,Bengaluru,9,353.88,15,2707.18,1,0,Tuesday,December,Q4,0,,0,Winter,Stormy,0,331.71,96.04,In-Store,Corporate,2455.98
+717,17-12-2025,P005,LED Desk Lamp,Home,S01,Chennai,27,2382.39,0,64324.53,0,1,Wednesday,December,Q4,0,,0,Winter,Cloudy,0,2330.5,109.84,Online,Wholesale,209.21
+718,18-12-2025,P002,Bluetooth Speaker,Electronics,S04,Delhi,48,4784.46,20,183723.26,1,1,Thursday,December,Q4,0,,0,Winter,Rainy,0,4602.42,107.27,Wholesale,Corporate,2008.42
+719,19-12-2025,P005,LED Desk Lamp,Home,S02,Bengaluru,58,2611.88,15,128765.68,1,1,Friday,December,Q4,0,,0,Winter,Cloudy,0,2354.58,97.14,Online,Corporate,6246.06
+720,20-12-2025,P004,Notebook Pack,Stationery,S03,Mumbai,48,4569.45,5,208366.92,1,1,Saturday,December,Q4,0,,1,Winter,Stormy,1,4148.22,96.37,Wholesale,Corporate,3794.43
+721,21-12-2025,P005,LED Desk Lamp,Home,S04,Delhi,76,3142.53,20,191065.82,1,1,Sunday,December,Q4,0,,1,Winter,Stormy,0,2941.14,104.27,In-Store,Corporate,4154.32
+722,22-12-2025,P003,Office Chair,Furniture,S01,Chennai,27,2089.05,0,56404.35,0,1,Monday,December,Q4,0,,0,Winter,Cloudy,1,2002.1,108.74,Wholesale,Wholesale,361.2
+723,23-12-2025,P004,Notebook Pack,Stationery,S04,Delhi,0,2174.14,20,0,1,0,Tuesday,December,Q4,0,,0,Winter,Sunny,0,1990,96.58,In-Store,Corporate,4783.89
+724,24-12-2025,P005,LED Desk Lamp,Home,S02,Bengaluru,52,2629.11,5,129878.03,1,1,Wednesday,December,Q4,0,,0,Winter,Sunny,0,2566.62,106.19,Online,Corporate,858.86
+725,25-12-2025,P005,LED Desk Lamp,Home,S01,Chennai,15,3603.68,0,54055.2,0,1,Thursday,December,Q4,0,,0,Winter,Stormy,0,3292.49,103.23,Online,Wholesale,475.01
+726,26-12-2025,P003,Office Chair,Furniture,S04,Delhi,52,4138.05,20,172142.88,1,1,Friday,December,Q4,0,,0,Winter,Rainy,0,4226.59,97.66,Online,Wholesale,7543.74
+727,27-12-2025,P003,Office Chair,Furniture,S01,Chennai,26,3422.68,0,88989.68,0,1,Saturday,December,Q4,0,,1,Winter,Stormy,0,3202.22,105.72,Wholesale,Wholesale,108.08
+728,28-12-2025,P001,Wireless Mouse,Electronics,S01,Chennai,57,2074.97,0,118273.29,1,1,Sunday,December,Q4,0,,1,Winter,Clear,0,1887.67,100.66,Online,Retail,4059.12
+729,29-12-2025,P004,Notebook Pack,Stationery,S02,Bengaluru,62,638.65,5,37616.48,1,1,Monday,December,Q4,0,,0,Winter,Sunny,0,679.59,105.2,Online,Retail,9608.08
+730,30-12-2025,P002,Bluetooth Speaker,Electronics,S02,Bengaluru,0,3675.26,0,0,1,0,Tuesday,December,Q4,0,,0,Winter,Sunny,0,3544.92,104.4,Wholesale,Retail,9376.11
