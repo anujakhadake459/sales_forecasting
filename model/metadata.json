@@ -1,0 +1,18 @@
+{
+  "model": "Improved XGBoost",
+  "model_features": 81,
+  "dataset_rows": 1968,
+  "latest_dataset_date": "2026-08-31",
+  "forecast_horizons": {
+    "1 Day": 1,
+    "7 Days": 7,
+    "14 Days": 14,
+    "30 Days": 30
+  },
+  "notes": [
+    "Browser version uses the supplied trained XGBoost model converted to native XGBoost JSON.",
+    "Product + Store and Store Total modes mirror the supplied Streamlit application.",
+    "Forecasts are recursive: each prediction is added to the working history for the next day's lag features.",
+    "Marketing Spend is applied from the user's selected input in the browser version."
+  ]
+}
